@@ -19,7 +19,6 @@
 
         </div>
     </div>
-    <!-- data-depth="0.01" data-limit-x data-friction-x data-scalar-y -->
     <header>
         <div class="bg" id="scene">
             <img class="bg-1" src="./images/bg-02.png" alt="bg-layer">
@@ -39,26 +38,13 @@
                 alt="bg-layer">
         </div>
     </header>
-    <!-- <header>
-        <div class="bg" id="scene">
-            <img data-rellax-speed="1" class="bg-1 rellax" src="./images/bg-02.png" alt="bg-layer">
-            <img data-rellax-speed="1.5" class="bg-2 rellax" src="./images/bg-03.png" alt="bg-layer">
-            <img data-rellax-speed="2" class="bg-3 rellax" src="./images/bg-05.png" alt="bg-layer">
-            <img data-rellax-speed="2.5" class="bg-4 rellax" src="./images/bg-04.png" alt="bg-layer">
-            <img data-rellax-speed="3" class="bg-5 rellax" src="./images/bg-09.png" alt="bg-layer">
-            <img data-rellax-speed="3.5" class="bg-6 rellax" src="./images/bg-06.png" alt="bg-layer">
-            <img data-rellax-speed="4" class="bg-7 rellax" src="./images/bg-07.png" alt="bg-layer">
-            <img data-rellax-speed="4.5" class="bg-8 rellax" src="./images/bg-08.png" alt="bg-layer">
-        </div>
-    </header> -->
-
-
+    
     <div class="logo">
         <img src="./images/logo-12.png" alt="logo">
     </div>
 
 
-    <!-- ---------- NAVIGATION ---------- -->
+    <!------------- NAVIGATION ------------->
 
     <div class="navigation">
         <div class="navigation-button">
@@ -77,7 +63,8 @@
             </ul>
         </nav>
     </div>
-
+    <!------------------------------------>
+    
     <div class="header-text">
         <h1>Lorem<br>Ipsum Dolor<br>Sit Amet</h1>
         <p>Lorem ipsum dolor sit amet adipicit<br>consectetur lorem adipicit.</p>
@@ -90,12 +77,17 @@
         <div class="mouse"></div>
     </div>
 
-
+    
+    
+    
+<!----------------- MAIN ----------------->
     <main>
         <div class="bg">
             <img id="adipicit" src="images/bg-11.png" alt="background image">
         </div>
-
+        
+        
+<!------------- SECTION ONE ------------->
         <section class="sec-one">
 
             <div class="container">
@@ -174,8 +166,9 @@
                 </p>
             </div>
         </section>
-
-
+        <!--------------------------------------->
+        
+        <!------------- SECTION TWO ------------->
         <section class="sec-two" id="ipsum-amet">
             <div class="container">
                 <div class="left-text">
@@ -253,7 +246,9 @@
             </div>
         </section>
 
-
+        <!----------------------------------------->
+        
+        <!------------- SECTION THREE ------------->
         <section class="sec-three">
             <div class="container">
                 <img src="./images/bg-13.png" alt="background image">
@@ -262,8 +257,9 @@
                 <img src="./images/bg-15.png" alt="background image">
             </div>
         </section>
-
-
+        <!---------------------------------------->
+        
+        <!------------- SECTION FOUR ------------->
         <section class="sec-four" id="voluptatibus">
             <div class="bg">
                 <img src="./images/bg-20.png" alt="background image">
@@ -341,7 +337,9 @@
                 </div>
             </div>
         </section>
-
+        <!---------------------------------------->
+        
+        <!------------- SECTION FIVE ------------->
         <section class="sec-five" id="dolor-sit">
             <div class="container">
                 <div class="left-text">
@@ -432,7 +430,9 @@
                     </span></p>
             </div>
         </section>
-
+        <!---------------------------------->
+        
+        <!------------- FOOTER ------------->
         <section class="footer" id="consectetur">
 
             <div class="logo2 logo-img">
@@ -459,7 +459,9 @@
 
     </main>
 
-
+    <!----------------------------------------------->
+        
+    <!------------- NAVIGATION TOGGLING ------------->
     <script>
         $('.navigation').click(function () {
             $('.navigation-button').toggleClass('close');
@@ -469,9 +471,13 @@
         })
     </script>
 
-
+    <!----------------------------------->
+        
+    <!------------- LOADING ------------->
     <script src="script.js"></script>
-
+    <!----------------------------------->
+        
+    <!------------- PARALLAX EFFECT ------------->
     <script>
         var scene = document.getElementById('scene');
         var parallaxInstance = new Parallax(scene, {
@@ -481,25 +487,26 @@
 
         parallaxInstance.scalar(0, 22.5);
     </script>
-
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js"></script> -->
-    <!-- <script>
-        var rellax = new Rellax('.rellax', {
-
-            vertical: true,
-            horizontal: false
-        });
-    </script> -->
-
+    <!------------------------------------------------>
+        
+    
+    
+    
+    
+    <!------------- ANIMATIONS ON SCROLL ------------->
     <script>
-        const secOneLeftText = document.querySelector('.sec-one-left-text');
-
-        const config = {
-            // rootMargin: '50px 20px 75px 30px',
+      
+        //---------------- CONFIGURATION ----------------
+         const config = {
             rootMargin: '0px',
-            // threshold: [0, 0.25, 0.75, 1]
             threshold: [0, 0.25, 0.5, 0.75, 1]
         };
+        //---------------------------------------------------
+        
+        //------------------- SECTION ONE -------------------
+        const secOneLeftText = document.querySelector('.sec-one-left-text');
+
+       
 
         secOneLeftTextObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
@@ -549,7 +556,9 @@
 
         secOneBtnObserver.observe(secOneBtn);
 
-
+        //----------------------------------------------
+        
+        //--------------- VERTICAL TEXTS ---------------
         const secOneLetters = document.querySelectorAll('.letter');
 
         secOneLetterObserver = new IntersectionObserver(entries => {
@@ -603,7 +612,9 @@
         secOneVerticalRightParagraphObserver.observe(secOneVerticalRightParagraph);
 
 
-
+        //---------------------------------------------------
+        
+        //------------------- SECTION TWO -------------------
         const secTwoLeftTextHeading = document.querySelector('.left-text-heading');
         secTwoLeftTextHeadingObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
@@ -648,7 +659,9 @@
         secTwoRightTextImgObserver.observe(secTwoRightTextImg);
 
 
-
+        //----------------------------------------------------
+        
+        //------------------- SECTION FOUR -------------------
         const secFourVerticalTwoLeftParagraph = document.querySelector('.vertical-left2>p');
         secFourVerticalTwoLeftParagraphObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
@@ -661,23 +674,6 @@
         }, config);
 
         secFourVerticalTwoLeftParagraphObserver.observe(secFourVerticalTwoLeftParagraph);
-
-
-        const secFiveVerticalTwoRightParagraph = document.querySelector('.vertical-right2>p');
-        secFiveVerticalTwoRightParagraphObserver = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.intersectionRatio > 0) {
-                    entry.target.classList.add("animate-paragraph-to-right");
-                } else {
-                    entry.target.classList.remove("animate-paragraph-to-right");
-                }
-            });
-        }, config);
-
-        secFiveVerticalTwoRightParagraphObserver.observe(secFiveVerticalTwoRightParagraph);
-
-
-
 
         const secFourBigHeading = document.querySelector('.big-heading');
         secFourBigHeadingObserver = new IntersectionObserver(entries => {
@@ -722,6 +718,22 @@
         secFourCyanTextObserver.observe(secFourCyanText);
 
 
+        //----------------------------------------------------
+        
+        //------------------- SECTION FIVE -------------------
+        const secFiveVerticalTwoRightParagraph = document.querySelector('.vertical-right2>p');
+        secFiveVerticalTwoRightParagraphObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-paragraph-to-right");
+                } else {
+                    entry.target.classList.remove("animate-paragraph-to-right");
+                }
+            });
+        }, config);
+        
+        secFiveVerticalTwoRightParagraphObserver.observe(secFiveVerticalTwoRightParagraph);
+
         const secFiveHeading = document.querySelector('.left-text-heading2');
         secFiveHeadingObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
@@ -749,8 +761,6 @@
         secFiveHeadingThree.forEach(headingthree => {
             secFiveHeadingThreeObserver.observe(headingthree);
         });
-
-
 
 
         const secFiveRightText = document.querySelector('.sec-five-right-text');
@@ -801,6 +811,9 @@
         secFiveBtnObserver.observe(secFiveBtn);
 
 
+        //----------------------------------------------------
+        
+        //---------------------- FOOTER ----------------------
         const logoImg = document.querySelector('.logo-img');
 
         logoImgObserver = new IntersectionObserver(entries => {
