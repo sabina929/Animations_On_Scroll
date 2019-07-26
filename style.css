@@ -1303,6 +1303,8 @@ main>section.sec-four>div.bg {
 
 main>section.sec-four>div.bg img {
     height: 1670px;
+    width: 100vw;
+    margin-left: -120px;
 }
 
 main>section.sec-four>div.container {
