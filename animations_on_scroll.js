@@ -1,10 +1,12 @@
- //---------------- CONFIGURATION --------------------
+        //---------------- CONFIGURATION --------------------
          const config = {
             rootMargin: '0px',
             threshold: [0, 0.25, 0.5, 0.75, 1]
         };
         //---------------------------------------------------
         
+
+
         //------------------- SECTION ONE -------------------
         const secOneLeftText = document.querySelector('.sec-one-left-text');
         
@@ -20,8 +22,12 @@
                 }
             });
         }, config);
+
         secOneLeftTextObserver.observe(secOneLeftText);
+
+
         const secOneRightText = document.querySelector('.sec-one-right-text');
+
         secOneRightTextObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -31,8 +37,12 @@
                 }
             });
         }, config);
+
         secOneRightTextObserver.observe(secOneRightText);
+
+
         const secOneBtn = document.querySelector('.sec-one-btn');
+
         secOneBtnObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -42,11 +52,13 @@
                 }
             });
         }, config);
+
         secOneBtnObserver.observe(secOneBtn);
-        //----------------------------------------------
+        
         
         //--------------- VERTICAL TEXTS ---------------
         const secOneLetters = document.querySelectorAll('.letter');
+
         secOneLetterObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -56,9 +68,12 @@
                 }
             });
         }, config);
+
         secOneLetters.forEach(lett => {
             secOneLetterObserver.observe(lett);
         });
+
+
         const secOneVerticalLeftParagraph = document.querySelector('.vertical-left>p');
         // console.log(secOneVerticalLeftParagraph);
         secOneVerticalLeftParagraphObserver = new IntersectionObserver(entries => {
@@ -70,13 +85,18 @@
                 }
             });
         }, config);
+
         secOneVerticalLeftParagraphObserver.observe(secOneVerticalLeftParagraph);
+
         // Get the content value of .element:before
         // var content = window.getComputedStyle(
         //     document.querySelector('#adipicit>div.vertical-left>p'), ':before'
         // ).getPropertyValue('content');
         // console.log(content);
+
+
         const secOneVerticalRightParagraph = document.querySelector('.vertical-right>p');
+
         secOneVerticalRightParagraphObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -86,6 +106,7 @@
                 }
             });
         }, config);
+
         secOneVerticalRightParagraphObserver.observe(secOneVerticalRightParagraph);
         //---------------------------------------------------
         //---------------------------------------------------
@@ -103,7 +124,9 @@
                 }
             });
         }, config);
+
         secTwoLeftTextHeadingObserver.observe(secTwoLeftTextHeading);
+
         const secTwoLeftTextParagraph = document.querySelector('.left-text-paragraph');
         
         secTwoLeftTextParagraphObserver = new IntersectionObserver(entries => {
@@ -115,8 +138,12 @@
                 }
             });
         }, config);
+
         secTwoLeftTextParagraphObserver.observe(secTwoLeftTextParagraph);
+
+
         const secTwoRightTextImg = document.querySelector('.right-text-img');
+
         secTwoRightTextImgObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -126,6 +153,7 @@
                 }
             });
         }, config);
+
         secTwoRightTextImgObserver.observe(secTwoRightTextImg);
         //----------------------------------------------------
         
@@ -146,9 +174,11 @@
                 }
             });
         }, config);
+
         secFourVerticalTwoLeftParagraphObserver.observe(secFourVerticalTwoLeftParagraph);
         //----------------------------------------------
         
+
         const secFourBigHeading = document.querySelector('.big-heading');
         
         secFourBigHeadingObserver = new IntersectionObserver(entries => {
@@ -160,7 +190,10 @@
                 }
             });
         }, config);
+
         secFourBigHeadingObserver.observe(secFourBigHeading);
+
+
         const secFourCtaBtn = document.querySelector('.cta-btn');
         
         secFourCtaBtnObserver = new IntersectionObserver(entries => {
@@ -172,7 +205,10 @@
                 }
             });
         }, config);
+
         secFourCtaBtnObserver.observe(secFourCtaBtn);
+
+
         const secFourCyanText = document.querySelector('.cyan-text');
         
         secFourCyanTextObserver = new IntersectionObserver(entries => {
@@ -184,9 +220,11 @@
                 }
             });
         }, config);
+
         secFourCyanTextObserver.observe(secFourCyanText);
         //----------------------------------------------------
         
+
         //------------------- SECTION FIVE -------------------
         const secFiveVerticalTwoRightParagraph = document.querySelector('.vertical-right2>p');
         
@@ -201,7 +239,9 @@
         }, config);
         
         secFiveVerticalTwoRightParagraphObserver.observe(secFiveVerticalTwoRightParagraph);
+
         const secFiveHeading = document.querySelector('.left-text-heading2');
+
         secFiveHeadingObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -211,8 +251,12 @@
                 }
             });
         }, config);
+
         secFiveHeadingObserver.observe(secFiveHeading);
+
+
         const secFiveHeadingThree = document.querySelectorAll('h3');
+
         secFiveHeadingThreeObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -222,10 +266,14 @@
                 }
             });
         }, config);
+
         secFiveHeadingThree.forEach(headingthree => {
             secFiveHeadingThreeObserver.observe(headingthree);
         });
+
+
         const secFiveRightText = document.querySelector('.sec-five-right-text');
+
         secFiveRightTextObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -235,7 +283,10 @@
                 }
             });
         }, config);
+
         secFiveRightTextObserver.observe(secFiveRightText);
+
+
         // const secFiveRightTexts = document.querySelectorAll('.sec-five-right-text');
         // secFiveRightTextObserver = new IntersectionObserver(entries => {
         //     entries.forEach(entry => {
@@ -249,7 +300,10 @@
         // secFiveRightTexts.forEach(texts => {
         //     secFiveRightTextObserver.observe(texts);
         // });
+
+
         const secFiveBtn = document.querySelector('.sec-five-btn');
+
         secFiveBtnObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -259,11 +313,14 @@
                 }
             });
         }, config);
+
         secFiveBtnObserver.observe(secFiveBtn);
         //----------------------------------------------------
         
+
         //---------------------- FOOTER ----------------------
         const logoImg = document.querySelector('.logo-img');
+
         logoImgObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -273,8 +330,12 @@
                 }
             });
         }, config);
+
         logoImgObserver.observe(logoImg);
+
+
         const footerParags = document.querySelectorAll('.parag');
+
         footerParagsObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -284,10 +345,14 @@
                 }
             });
         }, config);
+
         footerParags.forEach(parag => {
             footerParagsObserver.observe(parag);
         });
+
+
         const footerCopyright = document.querySelector('.copyright');
+
         footerCopyrightObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -297,5 +362,6 @@
                 }
             });
         }, config);
+
         footerCopyrightObserver.observe(footerCopyright);
     </script>
