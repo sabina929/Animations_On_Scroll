@@ -364,4 +364,3 @@
         }, config);
 
         footerCopyrightObserver.observe(footerCopyright);
-    </script>
