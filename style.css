@@ -726,6 +726,10 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
     background-color: #73ffc2;
 }
 
+
+
+/* ------------------- VERTICAL TEXT ------------------- */
+
 .vertical-left {
     color: #fff;
     writing-mode: vertical-lr;
@@ -740,8 +744,6 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
     display: flex;
 
 }
-
-
 
 .vertical-left p::before {
     content: "";
