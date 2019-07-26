@@ -43,7 +43,7 @@
         <img src="./images/logo-12.png" alt="logo">
     </div>
 
-    <!-- ---------- NAVIGATION ---------- -->
+   
     <!-- NAVIGATION -->
     <div class="navigation">
         <div class="navigation-button">
@@ -79,14 +79,14 @@
     
     
     
-<!----------------- MAIN ----------------->
+<!-- MAIN -->
     <main>
         <div class="bg">
             <img id="adipicit" src="images/bg-11.png" alt="background image">
         </div>
         
         
-<!------------- SECTION ONE ------------->
+<!-- SECTION ONE -->
         <section class="sec-one">
 
             <div class="container">
@@ -167,7 +167,7 @@
         </section>
         <!--------------------------------------->
         
-        <!------------- SECTION TWO ------------->
+        <!-- SECTION TWO -->
         <section class="sec-two" id="ipsum-amet">
             <div class="container">
                 <div class="left-text">
@@ -247,7 +247,7 @@
 
         <!----------------------------------------->
         
-        <!------------- SECTION THREE ------------->
+        <!-- SECTION THREE -->
         <section class="sec-three">
             <div class="container">
                 <img src="./images/bg-13.png" alt="background image">
@@ -258,7 +258,7 @@
         </section>
         <!---------------------------------------->
         
-        <!------------- SECTION FOUR ------------->
+        <!-- SECTION FOUR -->
         <section class="sec-four" id="voluptatibus">
             <div class="bg">
                 <img src="./images/bg-20.png" alt="background image">
@@ -338,7 +338,7 @@
         </section>
         <!---------------------------------------->
         
-        <!------------- SECTION FIVE ------------->
+        <!-- SECTION FIVE -->
         <section class="sec-five" id="dolor-sit">
             <div class="container">
                 <div class="left-text">
@@ -431,7 +431,7 @@
         </section>
         <!---------------------------------->
         
-        <!------------- FOOTER ------------->
+        <!-- FOOTER -->
         <section class="footer" id="consectetur">
 
             <div class="logo2 logo-img">
@@ -459,8 +459,15 @@
     </main>
 
     <!----------------------------------------------->
+    
+    
+    <!-- MAIN END -->
         
-    <!------------- NAVIGATION TOGGLING ------------->
+    
+    
+    <!-- SCRIPTS -->
+    
+    <!-- NAVIGATION TOGGLING -->
     <script>
         $('.navigation').click(function () {
             $('.navigation-button').toggleClass('close');
@@ -469,14 +476,15 @@
 
         })
     </script>
-
     <!----------------------------------->
         
-    <!------------- LOADING ------------->
+    
+    <!-- LOADING -->
     <script src="script.js"></script>
     <!----------------------------------->
         
-    <!------------- PARALLAX EFFECT ------------->
+    
+    <!-- PARALLAX EFFECT -->
     <script>
         var scene = document.getElementById('scene');
         var parallaxInstance = new Parallax(scene, {
@@ -487,15 +495,12 @@
         parallaxInstance.scalar(0, 22.5);
     </script>
     <!------------------------------------------------>
-        
     
     
-    
-    
-    <!------------- ANIMATIONS ON SCROLL ------------->
+    <!-- ANIMATIONS ON SCROLL -->
     <script>
       
-        //---------------- CONFIGURATION ----------------
+        //---------------- CONFIGURATION --------------------
          const config = {
             rootMargin: '0px',
             threshold: [0, 0.25, 0.5, 0.75, 1]
@@ -504,9 +509,7 @@
         
         //------------------- SECTION ONE -------------------
         const secOneLeftText = document.querySelector('.sec-one-left-text');
-
-       
-
+        
         secOneLeftTextObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -609,12 +612,13 @@
         }, config);
 
         secOneVerticalRightParagraphObserver.observe(secOneVerticalRightParagraph);
-
-
         //---------------------------------------------------
+        //---------------------------------------------------
+        
         
         //------------------- SECTION TWO -------------------
         const secTwoLeftTextHeading = document.querySelector('.left-text-heading');
+        
         secTwoLeftTextHeadingObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -629,6 +633,7 @@
 
 
         const secTwoLeftTextParagraph = document.querySelector('.left-text-paragraph');
+        
         secTwoLeftTextParagraphObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -660,8 +665,14 @@
 
         //----------------------------------------------------
         
+        
+        
+        
         //------------------- SECTION FOUR -------------------
+        
+        //--------------- VERTICAL TEXTS ---------------
         const secFourVerticalTwoLeftParagraph = document.querySelector('.vertical-left2>p');
+        
         secFourVerticalTwoLeftParagraphObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -673,8 +684,11 @@
         }, config);
 
         secFourVerticalTwoLeftParagraphObserver.observe(secFourVerticalTwoLeftParagraph);
+        //----------------------------------------------
+        
 
         const secFourBigHeading = document.querySelector('.big-heading');
+        
         secFourBigHeadingObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -689,6 +703,7 @@
 
 
         const secFourCtaBtn = document.querySelector('.cta-btn');
+        
         secFourCtaBtnObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -704,6 +719,7 @@
 
 
         const secFourCyanText = document.querySelector('.cyan-text');
+        
         secFourCyanTextObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -721,6 +737,7 @@
         
         //------------------- SECTION FIVE -------------------
         const secFiveVerticalTwoRightParagraph = document.querySelector('.vertical-right2>p');
+        
         secFiveVerticalTwoRightParagraphObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
