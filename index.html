@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="loader">
+
+        </div>
+    </div>
+    <!-- data-depth="0.01" data-limit-x data-friction-x data-scalar-y -->
+    <header>
+        <div class="bg" id="scene">
+            <img class="bg-1" src="./images/bg-02.png" alt="bg-layer">
+            <img class="bg-2" data-depth="0.02" data-limit-x data-friction-x data-scalar-y src="./images/bg-03.png"
+                alt="bg-layer">
+            <img class="bg-3" data-depth="0.03" data-limit-x data-friction-x data-scalar-y src="./images/bg-05.png"
+                alt="bg-layer">
+            <img class="bg-4" data-depth="0.04" data-limit-x data-friction-x data-scalar-y src="./images/bg-04.png"
+                alt="bg-layer">
+            <img class="bg-5" data-depth="0.05" data-limit-x data-friction-x data-scalar-y src="./images/bg-09.png"
+                alt="bg-layer">
+            <img class="bg-6" data-depth="0.06" data-limit-x data-friction-x data-scalar-y src="./images/bg-06.png"
+                alt="bg-layer">
+            <img class="bg-7" data-depth="0.07" data-limit-x data-friction-x data-scalar-y src="./images/bg-07.png"
+                alt="bg-layer">
+            <img class="bg-8" data-depth="0.08" data-limit-x data-friction-x data-scalar-y src="./images/bg-08.png"
+                alt="bg-layer">
+        </div>
+    </header>
+    <!-- <header>
+        <div class="bg" id="scene">
+            <img data-rellax-speed="1" class="bg-1 rellax" src="./images/bg-02.png" alt="bg-layer">
+            <img data-rellax-speed="1.5" class="bg-2 rellax" src="./images/bg-03.png" alt="bg-layer">
+            <img data-rellax-speed="2" class="bg-3 rellax" src="./images/bg-05.png" alt="bg-layer">
+            <img data-rellax-speed="2.5" class="bg-4 rellax" src="./images/bg-04.png" alt="bg-layer">
+            <img data-rellax-speed="3" class="bg-5 rellax" src="./images/bg-09.png" alt="bg-layer">
+            <img data-rellax-speed="3.5" class="bg-6 rellax" src="./images/bg-06.png" alt="bg-layer">
+            <img data-rellax-speed="4" class="bg-7 rellax" src="./images/bg-07.png" alt="bg-layer">
+            <img data-rellax-speed="4.5" class="bg-8 rellax" src="./images/bg-08.png" alt="bg-layer">
+        </div>
+    </header> -->
+
+
+    <div class="logo">
+        <img src="./images/logo-12.png" alt="logo">
+    </div>
+
+
+    <!-- ---------- NAVIGATION ---------- -->
+
+    <div class="navigation">
+        <div class="navigation-button">
+            <span class="navigation-icon"></span>
+        </div>
+
+        <div class="navigation-background"></div>
+
+        <nav class="navigation-nav">
+            <ul class="navigation-list">
+                <li class="navigation-item"><a href="#adipicit" class="navigation-link">Adipicit</a></li>
+                <li class="navigation-item"><a href="#ipsum-amet" class="navigation-link">Ipsum Amet</a></li>
+                <li class="navigation-item"><a href="#voluptatibus" class="navigation-link">Voluptatibus</a></li>
+                <li class="navigation-item"><a href="#dolor-sit" class="navigation-link">Dolor Sit</a></li>
+                <li class="navigation-item"><a href="#consectetur" class="navigation-link">Consectetur</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="header-text">
+        <h1>Lorem<br>Ipsum Dolor<br>Sit Amet</h1>
+        <p>Lorem ipsum dolor sit amet adipicit<br>consectetur lorem adipicit.</p>
+    </div>
+    <div class="cta">
+        <div class="btn-primary"><a href="#">Cite Amet</a></div>
+        <p>Lorem ipsum dolor sit adipicit<br>consectetur amet.</p>
+    </div>
+    <div class="scrolling">
+        <div class="mouse"></div>
+    </div>
+
+
+    <main>
+        <div class="bg">
+            <img id="adipicit" src="images/bg-11.png" alt="background image">
+        </div>
+
+        <section class="sec-one">
+
+            <div class="container">
+                <div class="left-text sec-one-left-text">
+                    <h2>Lorem ipsum dolor sit adipicit consectetur amet. Dolot adicit um adipicit consectetur amet.
+                        Lorem
+                        ipsum dolor sit adipicit consectetur. Lorem ipsum dolor sit adipicit amet.</h2>
+                </div>
+                <div class="right-text">
+                    <p class="sec-one-right-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolore
+                        similique aliquam
+                        veritatis
+                        sed quod totam non autem aperiam quaerat laudantium voluptatibus veniam repellendus recusandae
+                        consequatur porro nobis deleniti optio, soluta, maxime.</p>
+                    <div class="btn sec-one-btn">
+                        <a href="#">Pariatur est</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vertical-left">
+                <p>
+                    <span class="letter">
+                        L
+                    </span>
+                    <span class="letter">
+                        o
+                    </span>
+                    <span class="letter">
+                        r
+                    </span>
+                    <span class="letter">
+                        e
+                    </span>
+                    <span class="letter">
+                        m
+                    </span>
+                    <span class="letter">
+                        &nbsp;i
+                    </span>
+                    <span class="letter">
+                        p
+                    </span>
+                    <span class="letter">
+                        s
+                    </span>
+                    <span class="letter">
+                        u
+                    </span>
+                    <span class="letter">
+                        m
+                    </span>
+                    <span class="letter">
+                        &nbsp;d
+                    </span>
+                    <span class="letter">
+                        o
+                    </span>
+                    <span class="letter">
+                        l
+                    </span>
+                    <span class="letter">
+                        o
+                    </span>
+                    <span class="letter">
+                        r
+                    </span>
+                    <span class="letter">
+                        &nbsp;s
+                    </span>
+                    <span class="letter">
+                        i
+                    </span>
+                    <span class="letter">
+                        t
+                    </span>
+                </p>
+            </div>
+        </section>
+
+
+        <section class="sec-two" id="ipsum-amet">
+            <div class="container">
+                <div class="left-text">
+                    <h2 class="left-text-heading">Dolor adipicit</h2>
+                    <p class="left-text-paragraph">Lorem ipsum dolor sit amet, adipisicing elit.<br>Debitis asperiores
+                        rerum at
+                        consequatur
+                        quam voluptatem natus. Est ipsa voluptatibus sed magni ex eligendi sequi ea
+                        fugiat nisi deleniti
+                        delectus<br>facere dolor doloribus, ullam totam earum cupiditate et, possimus voluptate
+                        pariatur.
+                    </p>
+                </div>
+                <div class="right-text">
+                    <img class="right-text-img" src="images/bg-12.png" alt="some image">
+                </div>
+            </div>
+            <div class="vertical-right">
+                <p>
+                    <span class="letter">
+                        L
+                    </span>
+                    <span class="letter">
+                        o
+                    </span>
+                    <span class="letter">
+                        r
+                    </span>
+                    <span class="letter">
+                        e
+                    </span>
+                    <span class="letter">
+                        m
+                    </span>
+                    <span class="letter">
+                        &nbsp;i
+                    </span>
+                    <span class="letter">
+                        p
+                    </span>
+                    <span class="letter">
+                        s
+                    </span>
+                    <span class="letter">
+                        u
+                    </span>
+                    <span class="letter">
+                        m
+                    </span>
+                    <span class="letter">
+                        &nbsp;d
+                    </span>
+                    <span class="letter">
+                        o
+                    </span>
+                    <span class="letter">
+                        l
+                    </span>
+                    <span class="letter">
+                        o
+                    </span>
+                    <span class="letter">
+                        r
+                    </span>
+                    <span class="letter">
+                        &nbsp;s
+                    </span>
+                    <span class="letter">
+                        i
+                    </span>
+                    <span class="letter">
+                        t
+                    </span>
+                </p>
+            </div>
+        </section>
+
+
+        <section class="sec-three">
+            <div class="container">
+                <img src="./images/bg-13.png" alt="background image">
+                <img src="./images/bg-14.png" alt="background image">
+                <img src="./images/bg-14.png" alt="background image">
+                <img src="./images/bg-15.png" alt="background image">
+            </div>
+        </section>
+
+
+        <section class="sec-four" id="voluptatibus">
+            <div class="bg">
+                <img src="./images/bg-20.png" alt="background image">
+            </div>
+
+            <div class="vertical-left2">
+                <p> <span class="letter">
+                        L
+                    </span>
+                    <span class="letter">
+                        o
+                    </span>
+                    <span class="letter">
+                        r
+                    </span>
+                    <span class="letter">
+                        e
+                    </span>
+                    <span class="letter">
+                        m
+                    </span>
+                    <span class="letter">
+                        &nbsp;i
+                    </span>
+                    <span class="letter">
+                        p
+                    </span>
+                    <span class="letter">
+                        s
+                    </span>
+                    <span class="letter">
+                        u
+                    </span>
+                    <span class="letter">
+                        m
+                    </span>
+                    <span class="letter">
+                        &nbsp;d
+                    </span>
+                    <span class="letter">
+                        o
+                    </span>
+                    <span class="letter">
+                        l
+                    </span>
+                    <span class="letter">
+                        o
+                    </span>
+                    <span class="letter">
+                        r
+                    </span>
+                    <span class="letter">
+                        &nbsp;s
+                    </span>
+                    <span class="letter">
+                        i
+                    </span>
+                    <span class="letter">
+                        t
+                    </span></p>
+            </div>
+
+            <div class="container">
+                <div class="left-text">
+                    <h1 class="big-heading">Ipsum dolor<br>adipicit . . .</h1>
+                    <div class="cta-btn">
+                        <div class="btn-primary2"><a href="#">Adipicit um</a></div>
+                    </div>
+                </div>
+
+                <div class="right-text cyan-text">
+                    <p>Lorem ipsum doloradipicit<br>consectetur amet. Dolor adicit<br>adipicit consectetur
+                        amet.<br>Lorem ipsum dolor sit adipicit<br>consectetur.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-five" id="dolor-sit">
+            <div class="container">
+                <div class="left-text">
+                    <h2 class="left-text-heading2">Consectetur sit</h2>
+
+                    <h3 id="heading-first">Dolor adipict</h3>
+                    <h3 id="heading-second">Adipict um</h3>
+                    <h3 id="heading-third">Ipsum amet</h3>
+                </div>
+                <div class="right-text">
+                    <p class="sec-five-right-text" id="content1">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Tempore
+                        exercitationem placeat magni
+                        quae eius voluptatem deleniti eligendi tempora totam, cum vel quod asperiores nulla
+                        distinctio neque ratione vero. Assumenda tenetur, cum aut libero
+                        sit.</p>
+                    <!-- <p class="sec-five-right-text" id="content2">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Tempore
+                        exercitationem placeat magni
+                        quae eius voluptatem deleniti eligendi tempora totam, cum vel quod asperiores nulla
+                        distinctio neque ratione vero. Assumenda tenetur, cum aut libero
+                        sit.</p>
+                    <p class="sec-five-right-text" id="content3">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Tempore
+                        exercitationem placeat magni
+                        quae eius voluptatem deleniti eligendi tempora totam, cum vel quod asperiores nulla
+                        distinctio neque ratione vero. Assumenda tenetur, cum aut libero
+                        sit.</p> -->
+                    <div class="btn sec-five-btn">
+                        <a href="#">Pariatur est</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vertical-right2">
+                <p> <span class="letter">
+                        L
+                    </span>
+                    <span class="letter">
+                        o
+                    </span>
+                    <span class="letter">
+                        r
+                    </span>
+                    <span class="letter">
+                        e
+                    </span>
+                    <span class="letter">
+                        m
+                    </span>
+                    <span class="letter">
+                        &nbsp;i
+                    </span>
+                    <span class="letter">
+                        p
+                    </span>
+                    <span class="letter">
+                        s
+                    </span>
+                    <span class="letter">
+                        u
+                    </span>
+                    <span class="letter">
+                        m
+                    </span>
+                    <span class="letter">
+                        &nbsp;d
+                    </span>
+                    <span class="letter">
+                        o
+                    </span>
+                    <span class="letter">
+                        l
+                    </span>
+                    <span class="letter">
+                        o
+                    </span>
+                    <span class="letter">
+                        r
+                    </span>
+                    <span class="letter">
+                        &nbsp;s
+                    </span>
+                    <span class="letter">
+                        i
+                    </span>
+                    <span class="letter">
+                        t
+                    </span></p>
+            </div>
+        </section>
+
+        <section class="footer" id="consectetur">
+
+            <div class="logo2 logo-img">
+                <img src="./images/bg-21.png" alt="Logo">
+            </div>
+
+            <div class="container2">
+                <div class="left-text">
+                    <p class="parag">lorem@ipsum.io</p>
+                    <p class="parag">consectetur@ipsum.io</p>
+                </div>
+                <div class="center-text">
+                    <p class="parag">@adipict_ipsum</p>
+                </div>
+                <div class="right-text">
+                    <p class="parag">445 Dolor Amet<br>Citum, Incidunt<br>Duis, Quaerat.</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>All Rights Reserved. Copyright 2019.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script>
+        $('.navigation').click(function () {
+            $('.navigation-button').toggleClass('close');
+            $('.navigation-background').toggleClass('open');
+            $('.navigation-nav').toggleClass('fade-in');
+
+        })
+    </script>
+
+
+    <script src="script.js"></script>
+
+    <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene, {
+            // limitX: false,
+            frictionX: false
+        });
+
+        parallaxInstance.scalar(0, 22.5);
+    </script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js"></script> -->
+    <!-- <script>
+        var rellax = new Rellax('.rellax', {
+
+            vertical: true,
+            horizontal: false
+        });
+    </script> -->
+
+    <script>
+        const secOneLeftText = document.querySelector('.sec-one-left-text');
+
+        const config = {
+            // rootMargin: '50px 20px 75px 30px',
+            rootMargin: '0px',
+            // threshold: [0, 0.25, 0.75, 1]
+            threshold: [0, 0.25, 0.5, 0.75, 1]
+        };
+
+        secOneLeftTextObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    // console.log('in the view');
+                    entry.target.classList.add("animate-to-right");
+                    // observer.unobserve(entry.target);
+                } else {
+                    // console.log('out of view');
+                    entry.target.classList.remove("animate-to-right");
+                }
+            });
+        }, config);
+
+        secOneLeftTextObserver.observe(secOneLeftText);
+
+
+
+        const secOneRightText = document.querySelector('.sec-one-right-text');
+
+        secOneRightTextObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-to-left");
+
+                } else {
+                    entry.target.classList.remove("animate-to-left");
+                }
+            });
+        }, config);
+
+        secOneRightTextObserver.observe(secOneRightText);
+
+
+
+        const secOneBtn = document.querySelector('.sec-one-btn');
+
+        secOneBtnObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-to-down");
+                } else {
+                    entry.target.classList.remove("animate-to-down");
+                }
+            });
+        }, config);
+
+        secOneBtnObserver.observe(secOneBtn);
+
+
+        const secOneLetters = document.querySelectorAll('.letter');
+
+        secOneLetterObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-letter-to-right");
+
+                } else {
+                    entry.target.classList.remove("animate-letter-to-right");
+                }
+            });
+        }, config);
+
+        secOneLetters.forEach(lett => {
+            secOneLetterObserver.observe(lett);
+        });
+
+
+
+        const secOneVerticalLeftParagraph = document.querySelector('.vertical-left>p');
+        // console.log(secOneVerticalLeftParagraph);
+        secOneVerticalLeftParagraphObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-paragraph-to-right");
+                } else {
+                    entry.target.classList.remove("animate-paragraph-to-right");
+                }
+            });
+        }, config);
+
+        secOneVerticalLeftParagraphObserver.observe(secOneVerticalLeftParagraph);
+
+        // Get the content value of .element:before
+        // var content = window.getComputedStyle(
+        //     document.querySelector('#adipicit>div.vertical-left>p'), ':before'
+        // ).getPropertyValue('content');
+        // console.log(content);
+
+        const secOneVerticalRightParagraph = document.querySelector('.vertical-right>p');
+        secOneVerticalRightParagraphObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-paragraph-to-right");
+                } else {
+                    entry.target.classList.remove("animate-paragraph-to-right");
+                }
+            });
+        }, config);
+
+        secOneVerticalRightParagraphObserver.observe(secOneVerticalRightParagraph);
+
+
+
+        const secTwoLeftTextHeading = document.querySelector('.left-text-heading');
+        secTwoLeftTextHeadingObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-heading-to-right");
+                } else {
+                    entry.target.classList.remove("animate-heading-to-right");
+                }
+            });
+        }, config);
+
+        secTwoLeftTextHeadingObserver.observe(secTwoLeftTextHeading);
+
+
+        const secTwoLeftTextParagraph = document.querySelector('.left-text-paragraph');
+        secTwoLeftTextParagraphObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-paragraph-to-up");
+                } else {
+                    entry.target.classList.remove("animate-paragraph-to-up");
+                }
+            });
+        }, config);
+
+        secTwoLeftTextParagraphObserver.observe(secTwoLeftTextParagraph);
+
+
+
+        const secTwoRightTextImg = document.querySelector('.right-text-img');
+
+        secTwoRightTextImgObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-img-to-left");
+                } else {
+                    entry.target.classList.remove("animate-img-to-left");
+                }
+            });
+        }, config);
+
+        secTwoRightTextImgObserver.observe(secTwoRightTextImg);
+
+
+
+        const secFourVerticalTwoLeftParagraph = document.querySelector('.vertical-left2>p');
+        secFourVerticalTwoLeftParagraphObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-paragraph-to-right");
+                } else {
+                    entry.target.classList.remove("animate-paragraph-to-right");
+                }
+            });
+        }, config);
+
+        secFourVerticalTwoLeftParagraphObserver.observe(secFourVerticalTwoLeftParagraph);
+
+
+        const secFiveVerticalTwoRightParagraph = document.querySelector('.vertical-right2>p');
+        secFiveVerticalTwoRightParagraphObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-paragraph-to-right");
+                } else {
+                    entry.target.classList.remove("animate-paragraph-to-right");
+                }
+            });
+        }, config);
+
+        secFiveVerticalTwoRightParagraphObserver.observe(secFiveVerticalTwoRightParagraph);
+
+
+
+
+        const secFourBigHeading = document.querySelector('.big-heading');
+        secFourBigHeadingObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-big-heading");
+                } else {
+                    entry.target.classList.remove("animate-big-heading");
+                }
+            });
+        }, config);
+
+        secFourBigHeadingObserver.observe(secFourBigHeading);
+
+
+        const secFourCtaBtn = document.querySelector('.cta-btn');
+        secFourCtaBtnObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-cta-btn");
+                } else {
+                    entry.target.classList.remove("animate-cta-btn");
+                }
+            });
+        }, config);
+
+        secFourCtaBtnObserver.observe(secFourCtaBtn);
+
+
+
+        const secFourCyanText = document.querySelector('.cyan-text');
+        secFourCyanTextObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-cyan-to-down");
+                } else {
+                    entry.target.classList.remove("animate-cyan-to-down");
+                }
+            });
+        }, config);
+
+        secFourCyanTextObserver.observe(secFourCyanText);
+
+
+        const secFiveHeading = document.querySelector('.left-text-heading2');
+        secFiveHeadingObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-heading2-to-right");
+                } else {
+                    entry.target.classList.remove("animate-heading2-to-right");
+                }
+            });
+        }, config);
+
+        secFiveHeadingObserver.observe(secFiveHeading);
+
+
+        const secFiveHeadingThree = document.querySelectorAll('h3');
+        secFiveHeadingThreeObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-heading3-to-up");
+                } else {
+                    entry.target.classList.remove("animate-heading3-to-up");
+                }
+            });
+        }, config);
+        secFiveHeadingThree.forEach(headingthree => {
+            secFiveHeadingThreeObserver.observe(headingthree);
+        });
+
+
+
+
+        const secFiveRightText = document.querySelector('.sec-five-right-text');
+
+        secFiveRightTextObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-sec-five-paragraph-to-down");
+
+                } else {
+                    entry.target.classList.remove("animate-sec-five-paragraph-to-down");
+                }
+            });
+        }, config);
+
+        secFiveRightTextObserver.observe(secFiveRightText);
+
+        // const secFiveRightTexts = document.querySelectorAll('.sec-five-right-text');
+
+        // secFiveRightTextObserver = new IntersectionObserver(entries => {
+        //     entries.forEach(entry => {
+        //         if (entry.intersectionRatio > 0) {
+        //             entry.target.classList.add("animate-sec-five-paragraph-to-down");
+
+        //         } else {
+        //             entry.target.classList.remove("animate-sec-five-paragraph-to-down");
+        //         }
+        //     });
+        // }, config);
+
+        // secFiveRightTexts.forEach(texts => {
+        //     secFiveRightTextObserver.observe(texts);
+        // });
+
+
+        const secFiveBtn = document.querySelector('.sec-five-btn');
+
+        secFiveBtnObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-sec-five-btn-to-left");
+                } else {
+                    entry.target.classList.remove("animate-sec-five-btn-to-left");
+                }
+            });
+        }, config);
+
+        secFiveBtnObserver.observe(secFiveBtn);
+
+
+        const logoImg = document.querySelector('.logo-img');
+
+        logoImgObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-logo-fade-in");
+                } else {
+                    entry.target.classList.remove("animate-logo-fade-in");
+                }
+            });
+        }, config);
+
+        logoImgObserver.observe(logoImg);
+
+
+        const footerParags = document.querySelectorAll('.parag');
+
+        footerParagsObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-footer-parag-up");
+                } else {
+                    entry.target.classList.remove("animate-footer-parag-up");
+                }
+            });
+        }, config);
+
+
+        footerParags.forEach(parag => {
+            footerParagsObserver.observe(parag);
+        });
+
+
+        const footerCopyright = document.querySelector('.copyright');
+
+        footerCopyrightObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add("animate-copyright-down");
+                } else {
+                    entry.target.classList.remove("animate-copyright-down");
+                }
+            });
+        }, config);
+
+
+
+        footerCopyrightObserver.observe(footerCopyright);
+    </script>
+
+    <!-- <script>
+        let headingFirst = document.querySelector('#heading-first');
+        let headingSecond = document.querySelector('#heading-second');
+        let headingThird = document.querySelector('#heading-third');
+
+        const contentOne = document.querySelector('#content1');
+        const contentTwo = document.querySelector('#content2');
+        const contentThree = document.querySelector('#content3');
+
+
+        headingFirst.addEventListener('click', function () {
+            // headingFirst.style.opacity = "1 !important";
+            // headingSecond.style.opacity = "0.666 !important";
+            // headingThird.style.opacity = "0.333 !important";
+
+            // contentOne.style.visibility = "visible";
+            contentOne.style.opacity = "0.5";
+            // contentOne.style.display = "block";
+            contentTwo.style.display = "none";
+            contentThree.style.display = "none";
+        });
+        headingSecond.addEventListener('click', function () {
+
+            // headingFirst.style.opacity = "0.666 !important";
+            // headingSecond.style.opacity = "1 !important";
+            // headingThird.style.opacity = "0.666 !important";
+
+            // contentOne.style.visibility = "hidden";
+            // contentOne.style.display = "none";
+            contentOne.style.opacity = "0";
+            contentTwo.style.display = "block";
+            contentThree.style.display = "none";
+        });
+        headingThird.addEventListener('click', function () {
+
+            // headingFirst.style.opacity = "0.333 !important";
+            // headingSecond.style.opacity = "0.666 !important";
+            // headingThird.style.opacity = "1 !important";
+
+            // contentOne.style.visibility = "hidden";
+            // contentOne.style.display = "none";
+            contentOne.style.opacity = "0";
+            contentTwo.style.display = "none";
+            contentThree.style.display = "block";
+        });
+    </script> -->
+
+</body>
+
+</html>
