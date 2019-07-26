@@ -2,9 +2,9 @@ const wrapper = document.querySelector('.wrapper');
 const navbar = document.querySelector('.navigation');
 const header = document.querySelector('header');
 const headerText = document.querySelector('.header-text');
-const cta = document.querySelector('.cta ');
-const logo = document.querySelector('.logo ');
-const scrolling = document.querySelector('.scrolling ');
+const cta = document.querySelector('.cta');
+const logo = document.querySelector('.logo');
+const scrolling = document.querySelector('.scrolling');
 const mainSections = document.querySelector('main');
 // const footer = document.querySelector('footer');
 
