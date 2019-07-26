@@ -18,7 +18,7 @@ body {
 
 /* ----------------------------------------------------- */
 
-/* -------------------- LOADING -------------------- */
+/* ---------------------- LOADING ---------------------- */
 .wrapper {
     position: relative;
     display: flex;
@@ -38,7 +38,7 @@ body {
     backface-visibility: hidden;
 }
 
-/* ----------------------------------------------------- */
+/* ----------------------------------------------------------- */
 
 /* -------------------- HEADER BACKGROUND -------------------- */
 
@@ -210,11 +210,8 @@ header {
     right: -400px;
     display: none;
     opacity: 0;
-    /* background-color: #4e048a; */
     background-color: hsl(272, 100%, 31%);
-
     z-index: 450;
-    /* transition: all 5s cubic-bezier(0.86, 0, 0.07, 1); */
 }
 
 .navigation-background.open {
@@ -301,7 +298,7 @@ header {
     transform: translateX(-10px);
 }
 
-/* ----------------------------------------------------- */
+/* ----------------------------------------------------------- */
 
 /* -------------------- HEADER FOREGROUND -------------------- */
 .logo {
@@ -317,8 +314,6 @@ header {
 .logo img {
     width: 55.4px;
 }
-
-
 
 .header-text {
     display: none;
@@ -343,8 +338,6 @@ header {
     opacity: 0;
     animation: textFadeDown .7s ease-out 1.2s forwards;
     backface-visibility: hidden;
-    /* padding: 16px 40px; */
-    /* transition: all .4s; */
 }
 
 @keyframes textFadeDown {
@@ -370,7 +363,6 @@ header {
     opacity: 0;
     animation: textFadeDown2 .9s ease-out 1.4s forwards;
     backface-visibility: hidden;
-    /* transition: all .4s; */
 }
 
 @keyframes textFadeDown2 {
@@ -408,7 +400,6 @@ header {
     opacity: 0;
     animation: textFadeDown2 .9s ease-out 1.6s forwards;
     backface-visibility: hidden;
-    /* transition: all .4s; */
 }
 
 @keyframes textFadeDown2 {
@@ -457,7 +448,6 @@ header {
     color: #1b073c;
     font-size: 36px;
     font-weight: bold;
-    /* margin-top: 5px; */
     text-align: center;
     letter-spacing: 0.5px;
     word-spacing: 1.2px;
@@ -480,9 +470,9 @@ header {
     color: #73ffc2;
 }
 
-/* ----------------------------------------------------- */
+/* -------------------------------------------------------- */
 
-/* -------------------- MOUSE SCROLLING ICON -------------------- */
+/* -------------------- SCROLLING ICON -------------------- */
 
 .scrolling {
     display: none;
@@ -547,13 +537,11 @@ header {
 
 @keyframes moveDown1 {
     0% {
-        /* height: 7px; */
         transform: translate(-50%, -50%);
         opacity: 1;
     }
 
     100% {
-        /* height: 0; */
         transform: translate(-50%, 60%);
         opacity: 0.3;
     }
@@ -561,13 +549,11 @@ header {
 
 @keyframes moveDown2 {
     0% {
-        /* height: 7px; */
         transform: translate(-50%, -50%);
         opacity: 1;
     }
 
     100% {
-        /* height: 0; */
         transform: translate(-50%, 40%);
         opacity: 0.5;
     }
@@ -578,23 +564,18 @@ header {
 
 /* ----------------------------------------------------- */
 
-/* -------------------- MAIN -------------------- */
+/* ----------------------- MAIN ----------------------- */
 
 main {
     display: none;
     opacity: 0;
     transition: all .8s ease-in;
-
-
 }
-
-
 
 main>div.bg {
     position: absolute;
     margin-top: -30px;
     z-index: 1;
-
 }
 
 
@@ -650,12 +631,6 @@ body>main>section.sec-one>div.container>div.left-text {
     }
 }
 
-/* 
-body>main>section.sec-one>div.container>div.left-text h2 {
-
-
-
-} */
 
 body>main>section.sec-one>div.container>div.right-text {
     color: #fff;
@@ -731,7 +706,6 @@ body>main>section.sec-one>div.container>div.right-text a {
 
 body>main>section.sec-one>div.container>div.right-text div.btn:hover a {
     padding-left: 5px;
-    /* color: #73ffc2; */
 }
 
 body>main>section.sec-one>div.container>div.right-text a::after {
@@ -746,7 +720,6 @@ body>main>section.sec-one>div.container>div.right-text a::after {
 }
 
 body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
-
     left: 0px;
     width: 0;
     height: .8px;
@@ -788,24 +761,19 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
 
 @keyframes paragraphToRightBefore {
     0% {
-        /* height: 0px; */
         opacity: 0;
         transform: translateY(0px) scaleY(0);
-        /* background-color: red; */
     }
 
     50% {
-        /* height: 0px; */
         opacity: 0.4;
         transform: translateY(-20px) scaleY(1.8);
-        /* background-color: red; */
+       
     }
 
     100% {
         opacity: 0.8;
         transform: translateY(0px) scaleY(1);
-        /* background-color: green; */
-        /* height: 20px; */
     }
 }
 
@@ -828,24 +796,18 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
 
 @keyframes paragraphToRight {
     0% {
-        /* height: 0px; */
         opacity: 0;
         transform: translateY(0px) scaleY(0);
-        /* background-color: red; */
     }
 
     50% {
-        /* height: 0px; */
         opacity: 0.4;
         transform: translateY(10px) scaleY(1.8);
-        /* background-color: red; */
     }
 
     100% {
         opacity: 0.8;
         transform: translateY(0px) scaleY(1);
-        /* background-color: green; */
-        /* height: 20px; */
     }
 }
 
@@ -950,14 +912,11 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
     from {
         transform: translateX(-3px);
         opacity: 0;
-
-        /* width: 0; */
     }
 
     to {
         transform: translateX(0px);
         opacity: 0.8;
-        /* width: 100%; */
 
     }
 }
@@ -1106,7 +1065,7 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
 }
 
 
-/* --------------------- */
+/* ------------------- VERTICAL TEXT ------------------- */
 
 .vertical-right {
     color: #fff;
@@ -1491,7 +1450,6 @@ main>section.sec-four>div.container .right-text p::after {
 }
 
 .cta-btn.animate-cta-btn {
-
     animation: ctaBtnLeft 2.2s ease .6s forwards;
 }
 
@@ -1513,9 +1471,7 @@ main>section.sec-four>div.container .right-text p::after {
 }
 
 .btn-primary2 {
-    /* background-color: #a24fe3; */
     background-color: #c547ff;
-
     width: 287px;
     height: 65.1px;
     padding: 4px 10px 4px;
@@ -1542,19 +1498,20 @@ main>section.sec-four>div.container .right-text p::after {
 
 .btn-primary2:hover,
 .btn-primary2:visited {
-    /* transform: translateY(0px) scale(1.01); */
     background-color: #5630ff;
 }
 
 .btn-primary2:active,
 .btn-primary2:focus {
-    /* transform: translateY(5px) scale(1.01); */
     background-color: #5630ff;
 }
 
 .btn-primary2:hover a {
     color: #73ffc2;
 }
+
+
+/* ------------------- VERTICAL TEXT ------------------- */
 
 body>main>section.sec-four>div.vertical-left2 {
     z-index: 182;
@@ -1568,7 +1525,6 @@ body>main>section.sec-four>div.vertical-left2 p {
     writing-mode: vertical-lr;
     text-orientation: mixed;
     color: #fff;
-    /* left: 25px; */
     font-size: 15px;
     opacity: 0.8;
     letter-spacing: 0.5px;
@@ -1596,24 +1552,19 @@ body>main>section.sec-four>div.vertical-left2 p::before {
 
 @keyframes paragraphToRightBefore {
     0% {
-        /* height: 0px; */
         opacity: 0;
         transform: translateY(0px) scaleY(0);
-        /* background-color: red; */
     }
 
     50% {
-        /* height: 0px; */
         opacity: 0.4;
         transform: translateY(-20px) scaleY(1.8);
-        /* background-color: red; */
+ 
     }
 
     100% {
         opacity: 0.8;
         transform: translateY(0px) scaleY(1);
-        /* background-color: green; */
-        /* height: 20px; */
     }
 }
 
@@ -1635,30 +1586,24 @@ body>main>section.sec-four>div.vertical-left2 p::after {
 
 @keyframes paragraphToRight {
     0% {
-        /* height: 0px; */
         opacity: 0;
         transform: translateY(0px) scaleY(0);
-        /* background-color: red; */
     }
 
     50% {
-        /* height: 0px; */
         opacity: 0.4;
         transform: translateY(10px) scaleY(1.8);
-        /* background-color: red; */
     }
 
     100% {
         opacity: 0.8;
         transform: translateY(0px) scaleY(1);
-        /* background-color: green; */
-        /* height: 20px; */
     }
 }
 
 /* ----------------------- */
 
-
+/* ------------------- VERTICAL TEXT ------------------- */
 .vertical-left2 p .letter {
     opacity: 0;
     transform: translateX(-3px);
@@ -1760,15 +1705,11 @@ body>main>section.sec-four>div.vertical-left2 p::after {
     from {
         transform: translateX(-3px);
         opacity: 0;
-
-        /* width: 0; */
     }
 
     to {
         transform: translateX(0px);
         opacity: 0.8;
-        /* width: 100%; */
-
     }
 }
 
@@ -1950,28 +1891,6 @@ body>main>section.sec-five .container .left-text h3:nth-child(4).animate-heading
 }
 
 
-
-/* body>main>section.sec-five .container .left-text h3:nth-child(2):hover {
-
-    opacity: 1;
-
-
-}
-
-body>main>section.sec-five .container .left-text h3:nth-child(3):hover {
-
-    opacity: 1;
-
-}
-
-body>main>section.sec-five .container .left-text h3:nth-child(4):hover {
-
-    opacity: 1;
-    ;
-
-} */
-
-
 body>main>section.sec-five .container .left-text {
     width: 340px;
     margin-left: 20px;
@@ -2059,7 +1978,6 @@ body>main>section.sec-five .container .right-text div.btn.animate-sec-five-btn-t
 }
 
 
-
 body>main>section.sec-five .container .right-text a {
     color: #fff;
     position: relative;
@@ -2093,6 +2011,8 @@ body>main>section.sec-five .container .right-text div.btn:hover a::after {
     background-color: #73ffc2;
 }
 
+
+/* ------------------- VERTICAL TEXT ------------------- */
 
 .vertical-right2 {
     position: absolute;
@@ -2253,9 +2173,9 @@ body>main>section.sec-five .container .right-text div.btn:hover a::after {
     }
 }
 
-/* ----------------------------------------------------- */
+/* ------------------------------------------------------ */
 
-/* -------------------- FOOTER -------------------- */
+/* ----------------------- FOOTER ----------------------- */
 
 main>section.footer {
 
@@ -2265,8 +2185,6 @@ main>section.footer {
     grid-template-columns: 3fr;
     grid-template-rows: 1fr .9fr 1fr;
     margin: 420px 60px 0px 60px;
-    /* margin-left: 60px; */
-    /* margin-right: auto; */
     width: 90vw;
 
 }
@@ -2275,7 +2193,6 @@ main>section.footer .logo2 {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 
@@ -2305,18 +2222,9 @@ main>section.footer>div.logo2>img {
 
 }
 
-/* main>section.footer>div.container2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -100px;
-
-} */
 
 main>section.footer>div.container2 {
-    /* display: flex; */
     justify-content: center;
-    /* align-items: center; */
     margin-top: -100px;
     display: grid;
     grid-template-columns: 170px 150px 200px;
@@ -2429,7 +2337,7 @@ main>section.footer>div.copyright.animate-copyright-down {
     }
 }
 
-/* ----------------------------------------------------- */
+/* ------------------------------------------------------- */
 
 /* -------------------- COLOR PALETTE -------------------- */
 /* color: #73ffc2;
