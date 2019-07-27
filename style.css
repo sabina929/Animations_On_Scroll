@@ -3220,7 +3220,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         margin-left: 120px;
         margin-right: auto;
 
-        margin-top: 850px;
+        /* margin-top: 850px; */
         height: 100vh;
     }
 
@@ -3243,7 +3243,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         /* grid-template-rows: 400px; */
         grid-gap: 0px;
         /* margin: -548px 205px 15px 25px; */
-        margin: -615px 20px 15px 20px;
+        margin: -600px 20px 15px 20px;
 
     }
 
@@ -3255,6 +3255,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         color: #abe2ff;
         font-size: 46px;
         margin-left: -50px;
+        margin-top: 50px;
         opacity: .12;
         word-spacing: 2px;
         transform: translateY(0px);
@@ -3270,13 +3271,13 @@ main>section.footer>div.copyright.animate-copyright-down {
     main>section.sec-four>div.container .right-text {
         width: 370px;
         margin-left: -139px;
-        margin-top: -64px;
+        margin-top: -239px;
 
     }
 
     main>section.sec-four>div.container .right-text p {
         color: #73ffc2;
-        font-size: 20px;
+        font-size: 18px;
         word-spacing: .4px;
         text-align: right;
         line-height: 30px;
@@ -3330,7 +3331,7 @@ main>section.footer>div.copyright.animate-copyright-down {
     .cta-btn {
         opacity: 1;
         transform: translateX(0px);
-        margin: 100px -50px;
+        margin: 164px -50px;
     }
 
 
@@ -3384,18 +3385,19 @@ main>section.footer>div.copyright.animate-copyright-down {
     }
 
     body>main>section.sec-four>div.vertical-left2 {
-        z-index: 182;
+        z-index: 185;
         position: absolute;
-        left: 25px;
-        margin-top: 420px;
+        left: 18px;
+        margin-top: -295px;
         display: flex;
+
     }
 
     body>main>section.sec-four>div.vertical-left2 p {
         writing-mode: vertical-lr;
         text-orientation: mixed;
         color: #fff;
-        font-size: 13px;
+        font-size: 12px;
         opacity: 0.8;
         letter-spacing: 0.1px;
         font-weight: 300;
@@ -3505,5 +3507,230 @@ main>section.footer>div.copyright.animate-copyright-down {
     .vertical-left2 p .letter:nth-child(18).animate-letter-to-right {
         animation: none;
     }
+
+
+    /* -------------------- SECTION FIVE -------------------- */
+
+    body>main>section.sec-five {
+        height: 100vh;
+        z-index: 190;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: -495px;
+        width: 100vw;
+    }
+
+
+    body>main>section.sec-five .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        grid-gap: 20px;
+        margin: -70px 131px 50px -46px;
+
+
+
+
+    }
+
+    body>main>section.sec-five .container .left-text {
+        margin: 0 50px 0 50px;
+
+    }
+
+    body>main>section.sec-five .container .left-text h2 {
+        position: relative;
+        color: #fff;
+        opacity: .9;
+        font-size: 24px;
+        margin-bottom: 40px;
+        font-weight: 500;
+        text-align: center;
+        transform: translateX(0px);
+
+    }
+
+
+
+    body>main>section.sec-five .container .left-text h2.left-text-heading2.animate-heading2-to-right {
+        animation: none;
+    }
+
+    body>main>section.sec-five .container .left-text h2::after {
+
+        bottom: -8px;
+        left: 60px;
+        width: 170px;
+        height: 1.5px;
+
+        transition: all .31s ease-out;
+        transform: scaleX(1);
+    }
+
+
+    body>main>section.sec-five .container .left-text h2.left-text-heading2.animate-heading2-to-right::after {
+        animation: none;
+    }
+
+    body>main>section.sec-five .container .left-text h3:nth-child(2) {
+        position: relative;
+        color: #73ffc2;
+        opacity: 1;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0.2px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        text-align: center;
+        transition: all .3s ease;
+        transform: translateY(0px);
+    }
+
+    body>main>section.sec-five .container .left-text h3:nth-child(2).animate-heading3-to-up {
+        animation: none;
+    }
+
+
+    body>main>section.sec-five .container .left-text h3:nth-child(3) {
+        position: relative;
+        color: #73ffc2;
+        transform: translateY(0);
+        opacity: 0.666;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        transition: all .3s ease;
+
+    }
+
+
+    body>main>section.sec-five .container .left-text h3:nth-child(3).animate-heading3-to-up {
+        animation: none;
+    }
+
+
+
+
+    body>main>section.sec-five .container .left-text h3:nth-child(4) {
+        position: relative;
+        color: #73ffc2;
+        transform: translateY(0);
+        opacity: 0.333;
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 25px;
+        letter-spacing: 0.2px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        transition: all .3s ease;
+
+    }
+
+    body>main>section.sec-five .container .left-text h3:nth-child(4).animate-heading3-to-up {
+        animation: none;
+    }
+
+
+    body>main>section.sec-five .container .left-text {
+        width: 340px;
+        /* margin-left: 20px; */
+    }
+
+    body>main>section.sec-five .container .right-text {
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        width: 370px;
+        letter-spacing: 0.5px;
+        font-weight: 300;
+        /* margin-left: 5px; */
+        margin-top: 5px;
+    }
+
+    body>main>section.sec-five .container .right-text>p {
+        opacity: 0.5;
+        letter-spacing: 0.5px;
+        line-height: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        transform: translateY(0px);
+    }
+
+    body>main>section.sec-five .container .right-text>p.animate-sec-five-paragraph-to-down {
+        animation: none;
+    }
+
+
+
+    body>main>section.sec-five .container .right-text div.btn {
+        height: 30px;
+        width: 100px;
+        cursor: pointer;
+        transform: translateX(60px);
+        opacity: 0;
+    }
+
+    body>main>section.sec-five .container .right-text div.btn.animate-sec-five-btn-to-left {
+        animation: secFiveBtnLeft 1s ease .9s forwards;
+    }
+
+    @keyframes secFiveBtnLeft {
+        0% {
+            transform: translateX(60px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+
+
+    body>main>section.sec-five .container .right-text a {
+        color: #fff;
+        position: relative;
+        letter-spacing: 0.5px;
+        line-height: 25px;
+        text-decoration: none;
+        transition: all .31s ease-out;
+    }
+
+    body>main>section.sec-five .container .right-text div.btn:hover a {
+        padding-left: 5px;
+        /* color: #73ffc2; */
+    }
+
+    body>main>section.sec-five .container .right-text a::after {
+        content: "";
+        position: absolute;
+        bottom: -8px;
+        left: .5px;
+        width: 110%;
+        height: .8px;
+        background-color: #a24fe3;
+        transition: all .31s ease-out;
+    }
+
+    body>main>section.sec-five .container .right-text div.btn:hover a::after {
+
+        left: 0px;
+        width: 0;
+        height: .8px;
+        background-color: #73ffc2;
+    }
+
+
+
+
+
 
 }
