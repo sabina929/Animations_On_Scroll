@@ -3672,51 +3672,30 @@ main>section.footer>div.copyright.animate-copyright-down {
     body>main>section.sec-five .container .right-text div.btn {
         height: 30px;
         width: 100px;
-        cursor: pointer;
-        transform: translateX(60px);
-        opacity: 0;
+        transform: translateX(0px);
+        opacity: 1;
     }
 
     body>main>section.sec-five .container .right-text div.btn.animate-sec-five-btn-to-left {
-        animation: secFiveBtnLeft 1s ease .9s forwards;
+        animation: none;
     }
-
-    @keyframes secFiveBtnLeft {
-        0% {
-            transform: translateX(60px);
-            opacity: 0;
-        }
-
-        100% {
-            transform: translateX(0);
-            opacity: 1;
-        }
-    }
-
 
 
     body>main>section.sec-five .container .right-text a {
-        color: #fff;
-        position: relative;
         letter-spacing: 0.5px;
         line-height: 25px;
-        text-decoration: none;
         transition: all .31s ease-out;
     }
 
     body>main>section.sec-five .container .right-text div.btn:hover a {
         padding-left: 5px;
-        /* color: #73ffc2; */
     }
 
     body>main>section.sec-five .container .right-text a::after {
-        content: "";
-        position: absolute;
         bottom: -8px;
         left: .5px;
         width: 110%;
         height: .8px;
-        background-color: #a24fe3;
         transition: all .31s ease-out;
     }
 
