@@ -3985,9 +3985,22 @@ main>section.footer>div.copyright.animate-copyright-down {
 
 }
 
+@media only screen and (max-width: 420px) {
+    
+   
+    .header-text {
+        left: 7.5%;
+    }
 
-
-
+    main>section.sec-four>div.bg {
+        top: 2500px;
+    }
+    
+    
+    main>section.sec-four>div.container {
+        margin:-576px 45px 15px 66px;
+    }
+}
 
 
 @media only screen and (max-width: 400px) {
