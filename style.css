@@ -5657,7 +5657,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         transition: all .8s ease-in;
         z-index: 15;
         position: absolute;
-        top: 76%;
+        top: 76.5%;
         right: 21%;
     }
 
