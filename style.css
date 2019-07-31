@@ -4672,8 +4672,8 @@ main>section.footer>div.copyright.animate-copyright-down {
     }
 
     .sec-two .container .right-text img {
-        width: 240px;
-        height: 250px;
+        width: 235px;
+        height: 245px;
         margin-top: 0px;
         margin-left: auto;
         margin-right: auto;
@@ -6003,8 +6003,8 @@ main>section.footer>div.copyright.animate-copyright-down {
     }
 
     .sec-two .container .right-text img {
-        width: 240px;
-        height: 250px;
+        width: 235px;
+        height: 245px;
         margin-top: 0px;
         margin-left: auto;
         margin-right: auto;
@@ -6040,18 +6040,20 @@ main>section.footer>div.copyright.animate-copyright-down {
     /* ----------------------------------------------------- */
 
     /* -------------------- SECTION THREE -------------------- */
-    main>section.sec-three>div>img:nth-child(1) {
+     main>section.sec-three>div>img:nth-child(1) {
         position: absolute;
         margin-top: -105px;
+        margin-left: -20px;
         z-index: 160;
-        width: 100vw;
+        width: 180%;
     }
 
     main>section.sec-three>div>img:nth-child(2) {
         position: absolute;
-        margin-top: -50px;
+        margin-top: 0px;
+        margin-left: -20px;
         z-index: 161;
-        width: 100vw;
+        width: 180%;
         animation: none;
     }
 
@@ -6063,7 +6065,8 @@ main>section.footer>div.copyright.animate-copyright-down {
         position: absolute;
         margin-top: -108px;
         z-index: 162;
-        width: 100vw;
+        margin-left: -49px;
+        width: 180%;
     }
 
 
@@ -6077,7 +6080,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         margin-left: auto;
         margin-right: auto;
 
-        /* margin-top: 850px; */
+        margin-top: 986px;
         height: 100vh;
     }
 
@@ -6085,7 +6088,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         z-index: 180;
         position: absolute;
         /* top: 1837px; */
-        top: 2464px;
+        top: 2508px;
         left: 0;
     }
 
