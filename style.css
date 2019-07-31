@@ -6040,6 +6040,10 @@ main>section.footer>div.copyright.animate-copyright-down {
     /* ----------------------------------------------------- */
 
     /* -------------------- SECTION THREE -------------------- */
+    
+    body>main>section.sec-three>div.container {
+        overflow-x: hidden;
+    }
      main>section.sec-three>div>img:nth-child(1) {
         position: absolute;
         margin-top: -105px;
