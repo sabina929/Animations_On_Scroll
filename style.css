@@ -6041,23 +6041,24 @@ main>section.footer>div.copyright.animate-copyright-down {
 
     /* -------------------- SECTION THREE -------------------- */
     
-    body>main>section.sec-three>div.container {
-        overflow-x: hidden;
-    }
-     main>section.sec-three>div>img:nth-child(1) {
+ 
+    main>section.sec-three>div>img:nth-child(1) {
         position: absolute;
+        right: 0;
         margin-top: -105px;
-        margin-left: -20px;
-        z-index: 160;
-        width: 180%;
+        /* z-index: 160; */
+        z-index: 97;
+        width: 170%;
+        height: auto;
     }
 
     main>section.sec-three>div>img:nth-child(2) {
         position: absolute;
-        margin-top: 0px;
-        margin-left: -20px;
-        z-index: 161;
-        width: 180%;
+        right: 0;
+        margin-top: 10px;
+        z-index: 98;
+        width: 106%;
+        height: auto;
         animation: none;
     }
 
@@ -6067,10 +6068,11 @@ main>section.footer>div.copyright.animate-copyright-down {
 
     main>section.sec-three>div>img:nth-child(4) {
         position: absolute;
-        margin-top: -108px;
-        z-index: 162;
-        margin-left: -49px;
-        width: 180%;
+        right: 0;
+        margin-top: -165px;
+        z-index: 99;
+        width: 210%;
+        height: auto;
     }
 
 
@@ -6080,7 +6082,7 @@ main>section.footer>div.copyright.animate-copyright-down {
     /* -------------------- SECTION FOUR -------------------- */
 
 
-    main>section.sec-four {
+      main>section.sec-four {
         margin-left: auto;
         margin-right: auto;
 
@@ -6092,7 +6094,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         z-index: 180;
         position: absolute;
         /* top: 1837px; */
-        top: 2548px;
+        top: 2640px;
         left: 0;
     }
 
