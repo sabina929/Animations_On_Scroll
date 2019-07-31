@@ -5614,7 +5614,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         position: absolute;
         justify-content: center;
         top: 20.5%;
-        left: 3.5%;
+        left: 3.8%;
 
 
     }
@@ -5657,7 +5657,6 @@ main>section.footer>div.copyright.animate-copyright-down {
         transition: all .8s ease-in;
         z-index: 15;
         position: absolute;
-
         top: 78%;
         right: 22%;
     }
@@ -5666,7 +5665,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         background-color: #5bf1d1;
         width: 210px;
         height: 42px;
-        padding: 7px 10px 4px;
+        padding: 8px 10px 4px 10px;
         text-align: center;
         transition: all .4s;
         cursor: pointer;
@@ -5931,7 +5930,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         justify-content: center;
         grid-template-columns: 1fr;
         grid-gap: 10px;
-        margin: 20px 64px 100px 64px;
+        margin: 110px 64px 100px 64px;
 
     }
 
@@ -6220,7 +6219,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         background-color: #c547ff;
         width: 210px;
         height: 42px;
-        padding: 7px 10px 4px;
+        padding: 8px 10px 4px 10px;
         text-align: center;
         transition: all .4s;
         cursor: pointer;
