@@ -4672,7 +4672,8 @@ main>section.footer>div.copyright.animate-copyright-down {
     }
 
     .sec-two .container .right-text img {
-        width: 70%;
+        width: 100px;
+        height: 100px;
         margin-top: 0px;
         margin-left: auto;
         margin-right: auto;
@@ -6002,9 +6003,8 @@ main>section.footer>div.copyright.animate-copyright-down {
     }
 
     .sec-two .container .right-text img {
-        width: 70%;
-        height: auto;
-
+        width: 100px;
+        height: 100px;
         margin-top: 0px;
         margin-left: auto;
         margin-right: auto;
