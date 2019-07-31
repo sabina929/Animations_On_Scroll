@@ -5613,7 +5613,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         z-index: 15;
         position: absolute;
         justify-content: center;
-        top: 20.5%;
+        top: 20%;
         left: 3.8%;
 
 
@@ -5657,7 +5657,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         transition: all .8s ease-in;
         z-index: 15;
         position: absolute;
-        top: 78%;
+        top: 76%;
         right: 21%;
     }
 
