@@ -2720,8 +2720,6 @@ main>section.footer>div.copyright.animate-copyright-down {
         align-items: center;
         background-color: #1b073c;
         z-index: 100;
-        display: none;
-        opacity: 0;
         transition: all .8s ease-in;
         position: relative;
         margin-top: 50px;
@@ -2977,8 +2975,6 @@ main>section.footer>div.copyright.animate-copyright-down {
         align-items: center;
         background-color: #1b073c;
         z-index: 100;
-        display: none;
-        opacity: 0;
         transition: all .8s ease-in;
         position: relative;
     }
@@ -4453,8 +4449,6 @@ main>section.footer>div.copyright.animate-copyright-down {
         align-items: center;
         background-color: #1b073c;
         z-index: 100;
-        display: none;
-        opacity: 0;
         transition: all .8s ease-in;
         position: relative;
         margin-top: 70px;
@@ -4595,8 +4589,6 @@ main>section.footer>div.copyright.animate-copyright-down {
         align-items: center;
         background-color: #1b073c;
         z-index: 100;
-        display: none;
-        opacity: 0;
         transition: all .8s ease-in;
         position: relative;
     }
