@@ -582,8 +582,6 @@ body>main>section.sec-one {
     align-items: center;
     background-color: #1b073c;
     z-index: 100;
-    display: none;
-    opacity: 0;
     transition: all .8s ease-in;
     position: relative;
 
@@ -925,8 +923,6 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
     align-items: center;
     background-color: #1b073c;
     z-index: 100;
-    display: none;
-    opacity: 0;
     transition: all .8s ease-in;
     position: relative;
 }
