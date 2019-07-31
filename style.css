@@ -5658,7 +5658,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         z-index: 15;
         position: absolute;
         top: 78%;
-        right: 22%;
+        right: 21%;
     }
 
     .btn-primary {
@@ -6118,7 +6118,7 @@ main>section.footer>div.copyright.animate-copyright-down {
 
 
     main>section.sec-four>div.container .left-text {
-        width: 300px;
+        width: 268px;
     }
 
     main>section.sec-four>div.container .left-text h1 {
@@ -6140,7 +6140,7 @@ main>section.footer>div.copyright.animate-copyright-down {
 
 
     main>section.sec-four>div.container .right-text {
-        width: 300px;
+        width: 294px;
         margin-left: auto;
         margin-right: auto;
         margin-top: -297px;
@@ -6524,7 +6524,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: .4fr .4fr .4fr;
-        margin: -140px auto 0px auto;
+        margin: -115px auto 0px auto;
 
         /* margin-left: 60px; */
         /* margin-right: auto; */
