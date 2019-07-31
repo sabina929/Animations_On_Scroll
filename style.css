@@ -4754,7 +4754,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         z-index: 180;
         position: absolute;
         /* top: 1837px; */
-        top: 2500px;
+        top: 2550px;
         left: 0;
     }
 
@@ -6099,7 +6099,7 @@ main>section.footer>div.copyright.animate-copyright-down {
     }
 
     main>section.sec-four>div.bg img {
-        height: 1878px;
+        height: 1778px;
         width: 100vw;
         margin-left: 0px;
     }
