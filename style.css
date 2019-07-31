@@ -5613,7 +5613,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         z-index: 15;
         position: absolute;
         justify-content: center;
-        top: 24%;
+        top: 20%;
         left: 3%;
 
 
@@ -6099,7 +6099,7 @@ main>section.footer>div.copyright.animate-copyright-down {
     }
 
     main>section.sec-four>div.bg img {
-        height: 1778px;
+        height: 1700px;
         width: 100vw;
         margin-left: 0px;
     }
