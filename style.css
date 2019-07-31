@@ -5799,7 +5799,8 @@ main>section.footer>div.copyright.animate-copyright-down {
         color: #a24fe3;
         text-align: center;
         width: 260px;
-        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
         opacity: 1;
         transform: translateX(0px);
     }
