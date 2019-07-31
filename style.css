@@ -6088,7 +6088,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         z-index: 180;
         position: absolute;
         /* top: 1837px; */
-        top: 2508px;
+        top: 2548px;
         left: 0;
     }
 
@@ -6200,7 +6200,7 @@ main>section.footer>div.copyright.animate-copyright-down {
     .cta-btn {
         opacity: 1;
         transform: translateX(0px);
-        margin: 192px auto 164px auto;
+        margin: 198px auto 164px auto;
     }
 
 
@@ -6284,7 +6284,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         position: absolute;
         display: flex;
         justify-content: center;
-        margin-top: -546px;
+        margin-top: -526px;
         width: 100vw;
         margin-left: auto;
         margin-right: auto;
@@ -6313,7 +6313,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         color: #fff;
         opacity: .9;
         font-size: 22px;
-        margin-bottom: 72px;
+        margin-bottom: 70px;
         font-weight: 500;
         text-align: center;
         transform: translateX(0px);
@@ -6350,7 +6350,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         font-weight: 500;
         line-height: 25px;
         letter-spacing: 0.2px;
-        margin-bottom: 18px;
+        margin-bottom: 19px;
         cursor: pointer;
         text-align: center;
         transition: all .3s ease;
@@ -6372,7 +6372,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         line-height: 25px;
         text-align: center;
         letter-spacing: 0.2px;
-        margin-bottom: 18px;
+        margin-bottom: 19px;
         cursor: pointer;
         transition: all .3s ease;
 
@@ -6396,7 +6396,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         text-align: center;
         line-height: 25px;
         letter-spacing: 0.2px;
-        margin-bottom: 18px;
+        margin-bottom: 19px;
         cursor: pointer;
         transition: all .3s ease;
 
@@ -6516,7 +6516,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: .4fr .4fr .4fr;
-        margin: -200px auto 0px auto;
+        margin: -140px auto 0px auto;
 
         /* margin-left: 60px; */
         /* margin-right: auto; */
