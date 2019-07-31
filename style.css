@@ -5613,8 +5613,8 @@ main>section.footer>div.copyright.animate-copyright-down {
         z-index: 15;
         position: absolute;
         justify-content: center;
-        top: 20%;
-        left: 3%;
+        top: 20.5%;
+        left: 3.5%;
 
 
     }
@@ -5659,7 +5659,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         position: absolute;
 
         top: 78%;
-        right: 22.5%;
+        right: 22%;
     }
 
     .btn-primary {
@@ -6290,7 +6290,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         position: absolute;
         display: flex;
         justify-content: center;
-        margin-top: -500px;
+        margin-top: -475px;
         width: 100vw;
         margin-left: auto;
         margin-right: auto;
