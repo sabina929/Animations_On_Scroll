@@ -7626,7 +7626,7 @@ main>section.footer>div.copyright.animate-copyright-down {
      position: absolute;
      display: flex;
      justify-content: center;
-     margin-top: -475px;
+     margin-top: -450px;
      width: 100vw;
      margin-left: auto;
      margin-right: auto;
@@ -7844,5 +7844,16 @@ main>section.footer>div.copyright.animate-copyright-down {
      font-weight: 300;
 
  }
+    
+    
+/* ------------------------------------------------ */
+
+
+/* -------------------- FOOTER -------------------- */
+ main>section.footer {
+      margin: -40px auto 0px auto;
+        
+ }
+        
     
 }
