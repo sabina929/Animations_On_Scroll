@@ -7428,12 +7428,12 @@ main>section.footer>div.copyright.animate-copyright-down {
          z-index: 180;
          position: absolute;
          /* top: 1837px; */
-         top: 2940px;
+         top: 2700px;
          left: 0;
      }
 
      main>section.sec-four>div.bg img {
-         height: 1600px;
+         height: 1960px;
          width: 100vw;
          margin-left: 0px;
      }
