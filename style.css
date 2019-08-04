@@ -7424,16 +7424,16 @@ main>section.footer>div.copyright.animate-copyright-down {
          height: 100vh;
      }
 
-     main>section.sec-four>div.bg {
+       main>section.sec-four>div.bg {
          z-index: 180;
          position: absolute;
          /* top: 1837px; */
-         top: 2700px;
+         top: 2640px;
          left: 0;
      }
 
      main>section.sec-four>div.bg img {
-         height: 1960px;
+         height: 1700px;
          width: 100vw;
          margin-left: 0px;
      }
