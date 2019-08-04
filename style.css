@@ -6083,7 +6083,8 @@ main>section.footer>div.copyright.animate-copyright-down {
     /* -------------------- SECTION FOUR -------------------- */
 
 
-      main>section.sec-four {
+
+    main>section.sec-four {
         margin-left: auto;
         margin-right: auto;
 
@@ -6095,7 +6096,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         z-index: 180;
         position: absolute;
         /* top: 1837px; */
-        top: 2640px;
+        top: 2745px;
         left: 0;
     }
 
@@ -6112,22 +6113,23 @@ main>section.footer>div.copyright.animate-copyright-down {
         grid-template-columns: 1fr;
         /* grid-template-rows: 400px; */
         grid-gap: 0px;
-        margin: -582px 36px 15px 36px
+        margin: -555px 40px 121px 41px;
     }
 
 
 
 
     main>section.sec-four>div.container .left-text {
-        width: 268px;
+        width: 286px;
     }
 
     main>section.sec-four>div.container .left-text h1 {
         color: #abe2ff;
         font-size: 44px;
-        margin-left: 21px;
-        /* margin-right: auto; */
-        margin-top: -36px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -56px;
+        text-align: center;
         opacity: .12;
         word-spacing: 2px;
         transform: translateY(0px);
@@ -6144,7 +6146,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         width: 294px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -297px;
+        margin-top: -289px;
     }
 
 
@@ -6207,7 +6209,7 @@ main>section.footer>div.copyright.animate-copyright-down {
     .cta-btn {
         opacity: 1;
         transform: translateX(0px);
-        margin: 210px auto 164px auto;
+        margin: 254px auto 50px auto;
     }
 
 
@@ -6266,7 +6268,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         position: absolute;
         left: 15px;
         margin-top: -295px;
-/*         display: flex; */
+        /*         display: flex; */
         display: none;
 
     }
@@ -6429,7 +6431,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         font-weight: 300;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 75px;
+        margin-top: 5px;
     }
 
     body>main>section.sec-five .container .right-text>p {
@@ -6496,7 +6498,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         position: absolute;
         top: 280px;
         right: 12px;
-/*         display: flex; */
+        /*         display: flex; */
         display: none;
     }
 
@@ -6511,7 +6513,7 @@ main>section.footer>div.copyright.animate-copyright-down {
 
     }
 
-
+  
 
     /* ----------------------------------------------------- */
 
