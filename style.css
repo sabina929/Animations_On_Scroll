@@ -7428,7 +7428,7 @@ main>section.footer>div.copyright.animate-copyright-down {
          z-index: 180;
          position: absolute;
          /* top: 1837px; */
-         top: 2640px;
+         top: 2940px;
          left: 0;
      }
 
@@ -7452,15 +7452,16 @@ main>section.footer>div.copyright.animate-copyright-down {
 
 
      main>section.sec-four>div.container .left-text {
-         width: 268px;
+         width: 288px;
      }
 
      main>section.sec-four>div.container .left-text h1 {
          color: #abe2ff;
          font-size: 44px;
-         margin-left: 21px;
-         /* margin-right: auto; */
+         margin-left: auto;
+         margin-right: auto;
          margin-top: -36px;
+         text-align: center;
          opacity: .12;
          word-spacing: 2px;
          transform: translateY(0px);
