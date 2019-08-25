@@ -15,25 +15,25 @@ function loading() {
         wrapper.style.display = 'none';
 
         navbar.style.display = 'block';
-        setTimeout(() => (navbar.style.opacity = 1), 50);
+        setTimeout(() => {navbar.style.opacity = 1}, 50);
 
         header.style.display = 'block';
-        setTimeout(() => (header.style.opacity = 1), 50);
+        setTimeout(() => {header.style.opacity = 1}, 50);
 
         headerText.style.display = 'block';
-        setTimeout(() => (headerText.style.opacity = 1), 50);
+        setTimeout(() => {headerText.style.opacity = 1}, 50);
 
         cta.style.display = 'block';
-        setTimeout(() => (cta.style.opacity = 1), 50);
+        setTimeout(() => {cta.style.opacity = 1}, 50);
 
         logo.style.display = 'block';
-        setTimeout(() => (logo.style.opacity = 1), 50);
+        setTimeout(() => {logo.style.opacity = 1}, 50);
 
         scrolling.style.display = 'block';
-        setTimeout(() => (scrolling.style.opacity = 1), 50);
+        setTimeout(() => {scrolling.style.opacity = 1}, 50);
 
         mainSections.style.display = 'block';
-        setTimeout(() => (mainSections.style.opacity = 1), 50);
+        setTimeout(() => {mainSections.style.opacity = 1}, 50);
 
         // footer.style.display = 'block';
         // setTimeout(() => (footer.style.opacity = 1), 50);
@@ -43,5 +43,7 @@ function loading() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  window.addEventListener("load", loading(), false);
+   window.addEventListener("load",  function() {
+           setTimeout(() => {loading()}, 1000);
+   }, false);
 })
