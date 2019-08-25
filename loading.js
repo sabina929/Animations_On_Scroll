@@ -42,4 +42,4 @@ function loading() {
     }, 1000);
 }
 
-loading();
+document.addEventListener('DOMContentLoaded', loading(), false);
