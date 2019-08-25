@@ -42,4 +42,6 @@ function loading() {
     }, 1000);
 }
 
-document.addEventListener('DOMContentLoaded', loading(), false);
+document.addEventListener('DOMContentLoaded', function() {
+  window.addEventListener("load", loading(), false);
+})
