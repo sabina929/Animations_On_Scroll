@@ -6947,7 +6947,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         z-index: 15;
         position: absolute;
         justify-content: center;
-        top: 20%;
+        top: 17%;
         left: 3.8%;
 
 
@@ -7117,7 +7117,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         z-index: 100;
         transition: all .8s ease-in;
         position: relative;
-        margin-top: 90px;
+        margin-top: 80px;
     }
 
     body>main>section.sec-one>div.container {
@@ -7434,7 +7434,7 @@ main>section.footer>div.copyright.animate-copyright-down {
          z-index: 180;
          position: absolute;
          /* top: 1837px; */
-         top: 2580px;
+         top: 2560px;
          left: 0;
      }
 
