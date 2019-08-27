@@ -2746,12 +2746,15 @@ main>section.footer>div.copyright.animate-copyright-down {
     .animate-to-right {
         animation: none;
     }
-
-    body>main>section.sec-one>div.container>div.left-text.sec-one-left-text.animate-to-right>h2 {
+ 
+    
+/*  body>main>section.sec-one>div.container>div.left-text.sec-one-left-text.animate-to-right>h2 {
         font-size: 20px;
-
+    } */
+    
+    body>main>section.sec-one>div.container>div.left-text.sec-one-left-text>h2 {
+        font-size: 18px;
     }
-
 
 
     body>main>section.sec-one>div.container>div.right-text {
@@ -2762,8 +2765,6 @@ main>section.footer>div.copyright.animate-copyright-down {
         margin-left: 20px;
         margin-top: 5px;
     }
-
-
 
 
     body>main>section.sec-one>div.container>div.right-text p {
@@ -4478,11 +4479,13 @@ main>section.footer>div.copyright.animate-copyright-down {
         animation: none;
     }
 
-    body>main>section.sec-one>div.container>div.left-text.sec-one-left-text.animate-to-right>h2 {
-        font-size: 20px;
+    /*   body>main>section.sec-one>div.container>div.left-text.sec-one-left-text.animate-to-right>h2 {
+             font-size: 20px;
+         } */
 
+    body>main>section.sec-one>div.container>div.left-text.sec-one-left-text>h2 {
+        font-size: 18px;
     }
-
 
 
     body>main>section.sec-one>div.container>div.right-text {
@@ -5324,10 +5327,6 @@ main>section.footer>div.copyright.animate-copyright-down {
 
 
 
-
-
-
-
 @media only screen and (max-width: 400px) {
 
     /* -------------------- HEADER BACKGROUND -------------------- */
@@ -5809,10 +5808,14 @@ main>section.footer>div.copyright.animate-copyright-down {
         animation: none;
     }
 
-    body>main>section.sec-one>div.container>div.left-text.sec-one-left-text.animate-to-right>h2 {
-        font-size: 20px;
-
+    /* body>main>section.sec-one>div.container>div.left-text.sec-one-left-text.animate-to-right>h2 {
+           font-size: 20px;
+       } */
+    
+    body>main>section.sec-one>div.container>div.left-text.sec-one-left-text>h2 {
+        font-size: 18px;
     }
+
 
 
 
@@ -7140,11 +7143,14 @@ main>section.footer>div.copyright.animate-copyright-down {
         animation: none;
     }
 
-    body>main>section.sec-one>div.container>div.left-text.sec-one-left-text.animate-to-right>h2 {
+/*     body>main>section.sec-one>div.container>div.left-text.sec-one-left-text.animate-to-right>h2 {
         font-size: 20px;
 
-    }
+    } */
 
+    body>main>section.sec-one>div.container>div.left-text.sec-one-left-text>h2 {
+        font-size: 18px;
+    }
 
 
     body>main>section.sec-one>div.container>div.right-text {
