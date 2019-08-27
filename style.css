@@ -4757,7 +4757,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         z-index: 180;
         position: absolute;
         /* top: 1837px; */
-        top: 2330px;
+        top: 2465px;
         left: 0;
     }
 
@@ -5023,7 +5023,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         font-weight: 500;
         line-height: 25px;
         letter-spacing: 0.2px;
-        margin-bottom: 18px;
+        margin-bottom: 24px;
         cursor: pointer;
         text-align: center;
         transition: all .3s ease;
@@ -5045,7 +5045,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         line-height: 25px;
         text-align: center;
         letter-spacing: 0.2px;
-        margin-bottom: 18px;
+        margin-bottom: 24px;
         cursor: pointer;
         transition: all .3s ease;
 
@@ -5069,7 +5069,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         text-align: center;
         line-height: 25px;
         letter-spacing: 0.2px;
-        margin-bottom: 18px;
+        margin-bottom: 24px;
         cursor: pointer;
         transition: all .3s ease;
 
@@ -5094,7 +5094,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         font-weight: 300;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 65px;
+        margin-top: 7px;
     }
 
     body>main>section.sec-five .container .right-text>p {
@@ -5189,7 +5189,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: .4fr .4fr .4fr;
-        margin: -200px auto 0px auto;
+        margin: -72px auto 0px auto;
 
         /* margin-left: 60px; */
         /* margin-right: auto; */
@@ -5656,7 +5656,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         transition: all .8s ease-in;
         z-index: 15;
         position: absolute;
-        top: 61.5%;
+        top: 73.5%;
         right: 21%;
     }
 
@@ -6310,14 +6310,10 @@ main>section.footer>div.copyright.animate-copyright-down {
         grid-gap: 0px;
         margin: -340px 5px 50px 5px;
 
-
-
-
     }
 
     body>main>section.sec-five .container .left-text {
-        margin: -30px 5px -195px 5px;
-
+        margin: 5px 5px -195px 5px;
     }
 
     body>main>section.sec-five .container .left-text h2 {
@@ -6362,7 +6358,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         font-weight: 500;
         line-height: 25px;
         letter-spacing: 0.2px;
-        margin-bottom: 19px;
+        margin-bottom: 21px;
         cursor: pointer;
         text-align: center;
         transition: all .3s ease;
@@ -6384,7 +6380,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         line-height: 25px;
         text-align: center;
         letter-spacing: 0.2px;
-        margin-bottom: 19px;
+        margin-bottom: 21px;
         cursor: pointer;
         transition: all .3s ease;
 
@@ -6408,7 +6404,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         text-align: center;
         line-height: 25px;
         letter-spacing: 0.2px;
-        margin-bottom: 19px;
+        margin-bottom: 21px;
         cursor: pointer;
         transition: all .3s ease;
 
@@ -6433,7 +6429,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         font-weight: 300;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -145px;
+        margin-top: -10px;
     }
 
     body>main>section.sec-five .container .right-text>p {
@@ -6529,7 +6525,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: .4fr .4fr .4fr;
-        margin: -115px auto 0px auto;
+        margin: 0px auto 0px auto;
 
         /* margin-left: 60px; */
         /* margin-right: auto; */
