@@ -366,7 +366,7 @@
         footerCopyrightObserver.observe(footerCopyright);
 
         //---------------------------------------------------------------------------------------------------------
-        //console.log(config);
+        console.log(config);
 
         let mediaQuery = window.matchMedia("(max-width: 900px)")
 
@@ -374,11 +374,11 @@
 
             if (mediaQuery.matches) {
                 config.rootMargin = '160px';
-        //console.log(config);
+        console.log(config);
 
             } else {
                 config.rootMargin = '0px';
-        //console.log(config);
+        console.log(config);
             }
         }
 
