@@ -1,5 +1,5 @@
         //---------------- CONFIGURATION --------------------
-         const config = {
+         let config = {
             rootMargin: '0px',
             threshold: [0, 0.25, 0.5, 0.75, 1]
         };
@@ -364,3 +364,23 @@
         }, config);
 
         footerCopyrightObserver.observe(footerCopyright);
+
+        //---------------------------------------------------------------------------------------------------------
+        //console.log(config);
+
+        let mediaQuery = window.matchMedia("(max-width: 900px)")
+
+        function myFunction() {
+
+            if (mediaQuery.matches) {
+                config.rootMargin = '160px';
+        //console.log(config);
+
+            } else {
+                config.rootMargin = '0px';
+        //console.log(config);
+            }
+        }
+
+        myFunction(mediaQuery);
+        mediaQuery.addListener(myFunction);
