@@ -374,11 +374,13 @@
 
             if (mediaQuery.matches) {
                 config.rootMargin = '160px';
-        console.log(config);
+                config.threshold = '1.0';
+                console.log(config);
 
             } else {
                 config.rootMargin = '0px';
-        console.log(config);
+                config.threshold = [0, 0.25, 0.5, 0.75, 1];
+                console.log(config);
             }
         }
 
