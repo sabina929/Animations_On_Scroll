@@ -18,11 +18,11 @@
         
         secOneLeftTextObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
-                if (entry.intersectionRatio > 0 && !mediaQuery) {
+                if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     // console.log('in the view');
                     entry.target.classList.add("animate-to-right");
                     // observer.unobserve(entry.target);
-                } else if (mediaQuery) {
+                } else if (mediaQuery.matches) {
                     // console.log('out of view');
                     entry.target.classList.remove("animate-to-right");
                 }
@@ -36,9 +36,9 @@
 
         secOneRightTextObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
-                if (entry.intersectionRatio > 0 && !mediaQuery) {
+                if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     entry.target.classList.add("animate-to-left");
-                } else if (mediaQuery) {
+                } else if (mediaQuery.matches) {
                     entry.target.classList.remove("animate-to-left");
                 }
             });
@@ -51,9 +51,9 @@
 
         secOneBtnObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
-                if (entry.intersectionRatio > 0 && !mediaQuery) {
+                if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     entry.target.classList.add("animate-to-down");
-                } else if (mediaQuery) {
+                } else if (mediaQuery.matches) {
                     entry.target.classList.remove("animate-to-down");
                 }
             });
@@ -67,9 +67,9 @@
 
         secOneLetterObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
-                if (entry.intersectionRatio > 0 && !mediaQuery) {
+                if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     entry.target.classList.add("animate-letter-to-right");
-                } else if (mediaQuery) {
+                } else if (mediaQuery.matches) {
                     entry.target.classList.remove("animate-letter-to-right");
                 }
             });
@@ -84,9 +84,9 @@
         // console.log(secOneVerticalLeftParagraph);
         secOneVerticalLeftParagraphObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
-                if (entry.intersectionRatio > 0 && !mediaQuery) {
+                if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     entry.target.classList.add("animate-paragraph-to-right");
-                } else if (mediaQuery) {
+                } else if (mediaQuery.matches) {
                     entry.target.classList.remove("animate-paragraph-to-right");
                 }
             });
@@ -105,9 +105,9 @@
 
         secOneVerticalRightParagraphObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
-                if (entry.intersectionRatio > 0 && !mediaQuery) {
+                if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     entry.target.classList.add("animate-paragraph-to-right");
-                } else if (mediaQuery) {
+                } else if (mediaQuery.matches) {
                     entry.target.classList.remove("animate-paragraph-to-right");
                 }
             });
@@ -123,9 +123,9 @@
         
         secTwoLeftTextHeadingObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
-                if (entry.intersectionRatio > 0 && !mediaQuery) {
+                if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     entry.target.classList.add("animate-heading-to-right");
-                } else if (mediaQuery) {
+                } else if (mediaQuery.matches) {
                     entry.target.classList.remove("animate-heading-to-right");
                 }
             });
@@ -137,9 +137,9 @@
         
         secTwoLeftTextParagraphObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
-                if (entry.intersectionRatio > 0 && !mediaQuery) {
+                if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     entry.target.classList.add("animate-paragraph-to-up");
-                } else if (mediaQuery) {
+                } else if (mediaQuery.matches) {
                     entry.target.classList.remove("animate-paragraph-to-up");
                 }
             });
@@ -152,9 +152,9 @@
 
         secTwoRightTextImgObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {
-                if (entry.intersectionRatio > 0 && !mediaQuery) {
+                if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     entry.target.classList.add("animate-img-to-left");
-                } else if (mediaQuery) {
+                } else if (mediaQuery.matches) {
                     entry.target.classList.remove("animate-img-to-left");
                 }
             });
