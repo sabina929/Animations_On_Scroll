@@ -7117,7 +7117,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         z-index: 100;
         transition: all .8s ease-in;
         position: relative;
-        margin-top: 135px;
+        margin-top: 100px;
     }
 
     body>main>section.sec-one>div.container {
@@ -7149,7 +7149,7 @@ main>section.footer>div.copyright.animate-copyright-down {
     } */
 
     body>main>section.sec-one>div.container>div.left-text.sec-one-left-text>h2 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
 
@@ -7426,7 +7426,7 @@ main>section.footer>div.copyright.animate-copyright-down {
          margin-left: auto;
          margin-right: auto;
 
-         margin-top: 986px;
+         margin-top: 992px;
          height: 100vh;
      }
 
@@ -7632,7 +7632,7 @@ main>section.footer>div.copyright.animate-copyright-down {
      position: absolute;
      display: flex;
      justify-content: center;
-     margin-top: -450px;
+     margin-top: -425px;
      width: 100vw;
      margin-left: auto;
      margin-right: auto;
