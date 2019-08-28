@@ -22,7 +22,7 @@
                     // console.log('in the view');
                     entry.target.classList.add("animate-to-right");
                     // observer.unobserve(entry.target);
-                } else if (mediaQuery.matches) {
+                } else {
                     // console.log('out of view');
                     entry.target.classList.remove("animate-to-right");
                 }
