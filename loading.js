@@ -39,7 +39,7 @@ function loading() {
         // setTimeout(() => (footer.style.opacity = 1), 50);
 
 
-    }, 1000);
+    }, 500);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
