@@ -38,7 +38,7 @@
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     entry.target.classList.add("animate-to-left");
-                } else if (mediaQuery.matches) {
+                } else {
                     entry.target.classList.remove("animate-to-left");
                 }
             });
@@ -53,7 +53,7 @@
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     entry.target.classList.add("animate-to-down");
-                } else if (mediaQuery.matches) {
+                } else {
                     entry.target.classList.remove("animate-to-down");
                 }
             });
@@ -69,7 +69,7 @@
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     entry.target.classList.add("animate-letter-to-right");
-                } else if (mediaQuery.matches) {
+                } else {
                     entry.target.classList.remove("animate-letter-to-right");
                 }
             });
@@ -86,7 +86,7 @@
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     entry.target.classList.add("animate-paragraph-to-right");
-                } else if (mediaQuery.matches) {
+                } else {
                     entry.target.classList.remove("animate-paragraph-to-right");
                 }
             });
@@ -107,7 +107,7 @@
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     entry.target.classList.add("animate-paragraph-to-right");
-                } else if (mediaQuery.matches) {
+                } else {
                     entry.target.classList.remove("animate-paragraph-to-right");
                 }
             });
@@ -125,7 +125,7 @@
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     entry.target.classList.add("animate-heading-to-right");
-                } else if (mediaQuery.matches) {
+                } else {
                     entry.target.classList.remove("animate-heading-to-right");
                 }
             });
@@ -139,7 +139,7 @@
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     entry.target.classList.add("animate-paragraph-to-up");
-                } else if (mediaQuery.matches) {
+                } else {
                     entry.target.classList.remove("animate-paragraph-to-up");
                 }
             });
@@ -154,7 +154,7 @@
             entries.forEach(entry => {
                 if (entry.intersectionRatio > 0 && !mediaQuery.matches) {
                     entry.target.classList.add("animate-img-to-left");
-                } else if (mediaQuery.matches) {
+                } else {
                     entry.target.classList.remove("animate-img-to-left");
                 }
             });
