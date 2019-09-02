@@ -39,11 +39,11 @@ function loading() {
         // setTimeout(() => (footer.style.opacity = 1), 50);
 
 
-    }, 500);
+    }, 250);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
    window.addEventListener("load",  function() {
-           setTimeout(() => {loading()}, 1000);
+           setTimeout(() => {loading()}, 500);
    }, false);
 })
