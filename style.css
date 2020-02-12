@@ -5185,18 +5185,14 @@ main>section.footer>div.copyright.animate-copyright-down {
         opacity: 1;
         animation: fadeIn .8s cubic-bezier(0.23, 0.28, 0.34, 0.93) forwards;
     }
-
     @keyframes fadeIn {
-
         0% {
             right: -320px;
         }
-
         100% {
             right: 0;
         }
     }
-
     .navigation-nav {
         height: 100vh;
         position: fixed;
@@ -5207,26 +5203,20 @@ main>section.footer>div.copyright.animate-copyright-down {
         min-width: 0;
         visibility: hidden;
         transition: all 0.5s cubic-bezier(0.23, 0.28, 0.34, 0.93);
-
     }
-
     .navigation-nav.fade-in {
         animation: fade-in 1s cubic-bezier(0.23, 0.28, 0.34, 0.93) 0.2s forwards;
         min-width: 400px;
         visibility: visible;
     }
-
     @keyframes fade-in {
-
         0% {
             opacity: 0;
         }
-
         100% {
             opacity: 1;
         }
     }
-
     .navigation-list {
         position: absolute;
         top: 50%;
@@ -5236,11 +5226,9 @@ main>section.footer>div.copyright.animate-copyright-down {
         text-align: right;
         width: 100%;
     }
-
     .navigation-item {
         margin: 1rem;
     }
-
     .navigation-link:link,
     .navigation-link:visited {
         display: inline-block;
@@ -5253,17 +5241,13 @@ main>section.footer>div.copyright.animate-copyright-down {
         transition: all .4s;
         backface-visibility: hidden;
     }
-
     .navigation-link:hover,
     .navigation-link:active {
-
         color: #25dbbd;
         background-position: 100%;
         transform: translateX(-10px);
     }
-
     /* ----------------------------------------------------- */
-
     /* -------------------- HEADER FOREGROUND -------------------- */
     .logo {
         display: none;
@@ -5274,13 +5258,9 @@ main>section.footer>div.copyright.animate-copyright-down {
         top: 16px;
         left: 19px;
     }
-
     .logo img {
         width: 45px;
     }
-
-
-
     .header-text {
         display: none;
         opacity: 0;
@@ -5290,10 +5270,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         justify-content: center;
         top: 17%;
         left: 3.8%;
-
-
     }
-
     .header-text h1 {
         font-size: 52px;
         font-weight: bolder;
@@ -5307,8 +5284,6 @@ main>section.footer>div.copyright.animate-copyright-down {
         animation: none;
         backface-visibility: hidden;
     }
-
-
     .header-text p {
         font-size: 19px;
         text-align: center;
@@ -5321,11 +5296,7 @@ main>section.footer>div.copyright.animate-copyright-down {
         opacity: 1;
         animation: none;
         backface-visibility: hidden;
-
-
     }
-
-
     .cta {
         display: none;
         opacity: 0;
@@ -5335,7 +5306,6 @@ main>section.footer>div.copyright.animate-copyright-down {
         top: 76.5%;
         right: 21%;
     }
-
     .btn-primary {
         background-color: #5bf1d1;
         width: 210px;
@@ -5353,9 +5323,6 @@ main>section.footer>div.copyright.animate-copyright-down {
         justify-content: center;
         transition: all .4s;
     }
-
-
-
     .cta p {
         font-size: 15px;
         word-spacing: 0.1px;
@@ -5372,59 +5339,37 @@ main>section.footer>div.copyright.animate-copyright-down {
         backface-visibility: hidden;
         transition: all .4s;
     }
-
-
     .btn-primary a {
         color: #1b073c;
         font-size: 20px;
         font-weight: bold;
-        /* margin-top: 5px; */
         text-align: center;
         letter-spacing: 0.5px;
         word-spacing: 1.2px;
         text-decoration: none;
     }
-
     .btn-primary:hover,
     .btn-primary:visited {
-        /* transform: translateY(0px) scale(1.01); */
-        background-color: #5630ff;
+         background-color: #5630ff;
     }
-
     .btn-primary:active,
     .btn-primary:focus {
-        /* transform: translateY(5px) scale(1.01); */
         background-color: #5630ff;
     }
-
     .btn-primary:hover a {
         color: #73ffc2;
     }
-
     /* ----------------------------------------------------- */
-
     /* -------------------- MOUSE SCROLLING ICON -------------------- */
-
-
-
     .scrolling .mouse {
         display: none;
-
-
     }
-
     .scrolling .mouse::before {
-
         display: none;
-
     }
-
     .scrolling .mouse::after {
-
         display: none;
     }
-
-
     /* ----------------------------------------------------- */
     /* -------------------- MAIN -------------------- */
     main {
@@ -5432,24 +5377,17 @@ main>section.footer>div.copyright.animate-copyright-down {
         opacity: 0;
         transition: all .8s ease-in;
         margin-top: 62px;
-
     }
-
     main>div.bg {
         position: absolute;
         margin-top: -30px;
         z-index: 1;
     }
-
     main>div.bg img {
         width: 100%;
-
     }
-
-
     /* ----------------------------------------------------- */
     /* -------------------- SECTION ONE -------------------- */
-
     body>main>section.sec-one {
         width: 100vw;
         justify-content: center;
@@ -5460,7 +5398,6 @@ main>section.footer>div.copyright.animate-copyright-down {
         position: relative;
         margin-top: 80px;
     }
-
     body>main>section.sec-one>div.container {
         display: grid;
         grid-template-columns: 1fr;
@@ -5469,7 +5406,6 @@ main>section.footer>div.copyright.animate-copyright-down {
         margin: 20px 64px 80px 64px;
 
     }
-
     body>main>section.sec-one>div.container>div.left-text {
         color: #a24fe3;
         text-align: center;
@@ -5479,21 +5415,12 @@ main>section.footer>div.copyright.animate-copyright-down {
         opacity: 1;
         transform: translateX(0px);
     }
-
     .animate-to-right {
         animation: none;
     }
-
-/*     body>main>section.sec-one>div.container>div.left-text.sec-one-left-text.animate-to-right>h2 {
-        font-size: 20px;
-
-    } */
-
     body>main>section.sec-one>div.container>div.left-text.sec-one-left-text>h2 {
         font-size: 21px;
     }
-
-
     body>main>section.sec-one>div.container>div.right-text {
         color: #fff;
         text-align: justify;
@@ -5502,10 +5429,6 @@ main>section.footer>div.copyright.animate-copyright-down {
         margin-left: 0px;
         margin-top: 5px;
     }
-
-
-
-
     body>main>section.sec-one>div.container>div.right-text p {
         line-height: 31px;
         margin-top: 5px;
@@ -5516,14 +5439,9 @@ main>section.footer>div.copyright.animate-copyright-down {
         letter-spacing: 0.1px;
         transform: translateX(0px);
     }
-
-
     .animate-to-left {
         animation: none;
     }
-
-
-
     body>main>section.sec-one>div.container>div.right-text div.btn {
         height: 30px;
         width: 95px;
@@ -5532,12 +5450,9 @@ main>section.footer>div.copyright.animate-copyright-down {
         margin: 0 auto;
         transform: translateY(0px);
     }
-
     .animate-to-down {
         animation: none;
     }
-
-
     body>main>section.sec-one>div.container>div.right-text a {
         color: #fff;
         position: relative;
@@ -5547,15 +5462,10 @@ main>section.footer>div.copyright.animate-copyright-down {
         transition: all .31s ease-out;
         font-size: 17px;
         text-align: center;
-
     }
-
-
     body>main>section.sec-one>div.container>div.right-text div.btn:hover a {
         padding-left: 5px;
-        /* color: #73ffc2; */
     }
-
     body>main>section.sec-one>div.container>div.right-text a::after {
         content: "";
         position: absolute;
@@ -5566,15 +5476,12 @@ main>section.footer>div.copyright.animate-copyright-down {
         background-color: #a24fe3;
         transition: all .31s ease-out;
     }
-
     body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
-
         left: 0px;
         width: 0;
         height: .8px;
         background-color: #73ffc2;
     }
-
     .vertical-left {
         color: #fff;
         writing-mode: vertical-lr;
@@ -5586,13 +5493,9 @@ main>section.footer>div.copyright.animate-copyright-down {
         opacity: 0.8;
         letter-spacing: 0.1px;
         font-weight: 300;
-        /*         display: flex; */
         display: none;
     }
-
-
     /* ----------------------------------------------------- */
-
     /* -------------------- SECTION TWO -------------------- */
     .sec-two {
         width: 100vw;
@@ -5603,22 +5506,17 @@ main>section.footer>div.copyright.animate-copyright-down {
         transition: all .8s ease-in;
         position: relative;
     }
-
     .sec-two .container {
         display: grid;
         justify-content: center;
         grid-template-columns: 1fr;
         grid-gap: 10px;
         margin: 110px 64px 100px 64px;
-
     }
-
     .sec-two .container .left-text {
-
         margin-top: 0px;
         width: 280px;
     }
-
     .sec-two .container .left-text h2 {
         position: relative;
         color: #fff;
@@ -5629,12 +5527,9 @@ main>section.footer>div.copyright.animate-copyright-down {
         transform: translateX(0px);
         opacity: .9;
     }
-
     .sec-two .container .left-text h2.animate-heading-to-right {
         animation: none;
     }
-
-
     .sec-two .container .left-text h2::after {
         content: "";
         position: absolute;
@@ -5645,13 +5540,10 @@ main>section.footer>div.copyright.animate-copyright-down {
         background-color: #73ffc2;
         transition: all .31s ease-out;
         transform: scaleX(1);
-
     }
-
     .sec-two .container .left-text h2.animate-heading-to-right::after {
         animation: none;
     }
-
     .sec-two .container .left-text p {
         position: relative;
         color: #fff;
@@ -5669,17 +5561,13 @@ main>section.footer>div.copyright.animate-copyright-down {
         opacity: 0.5;
         text-align: justify;
     }
-
     .sec-two .container .left-text p.animate-paragraph-to-up {
-
         animation: none;
     }
-
     .sec-two .container .right-text {
         display: flex;
         justify-content: center;
     }
-
     .sec-two .container .right-text img {
         width: 235px;
         height: 245px;
@@ -5689,16 +5577,10 @@ main>section.footer>div.copyright.animate-copyright-down {
         transform: translateX(0px);
         opacity: 1;
     }
-
     .animate-img-to-left {
-
         animation: none;
     }
-
-
-
     /* --------------------- */
-
     .vertical-right {
         color: #fff;
         writing-mode: vertical-lr;
@@ -5710,17 +5592,10 @@ main>section.footer>div.copyright.animate-copyright-down {
         opacity: 0.8;
         letter-spacing: 0.1px;
         font-weight: 300;
-        /*         display: flex; */
         display: none;
     }
-
-
-
     /* ----------------------------------------------------- */
-
     /* -------------------- SECTION THREE -------------------- */
-
-
     main>section.sec-three>div>img:nth-child(1) {
         position: absolute;
         right: 0;
@@ -5730,7 +5605,6 @@ main>section.footer>div.copyright.animate-copyright-down {
         width: 170%;
         height: auto;
     }
-
     main>section.sec-three>div>img:nth-child(2) {
         position: absolute;
         right: 0;
@@ -5740,11 +5614,9 @@ main>section.footer>div.copyright.animate-copyright-down {
         height: auto;
         animation: none;
     }
-
     main>section.sec-three>div>img:nth-child(3) {
         display: none;
     }
-
     main>section.sec-three>div>img:nth-child(4) {
         position: absolute;
         right: 0;
@@ -5753,55 +5625,36 @@ main>section.footer>div.copyright.animate-copyright-down {
         width: 210%;
         height: auto;
     }
-
-
-
     /* ----------------------------------------------------- */
-
     /* -------------------- SECTION FOUR -------------------- */
-
-
-
-
      main>section.sec-four {
          margin-left: auto;
          margin-right: auto;
-
          margin-top: 992px;
          height: 100vh;
      }
-
        main>section.sec-four>div.bg {
          z-index: 180;
          position: absolute;
-         /* top: 1837px; */
          top: 2560px;
          left: 0;
      }
-
      main>section.sec-four>div.bg img {
          height: 1800px;
          width: 100vw;
          margin-left: 0px;
      }
-
      main>section.sec-four>div.container {
          z-index: 181;
          position: absolute;
          display: grid;
          grid-template-columns: 1fr;
-         /* grid-template-rows: 400px; */
          grid-gap: 0px;
          margin: -582px 36px 15px 36px
      }
-
-
-
-
      main>section.sec-four>div.container .left-text {
          width: 288px;
      }
-
      main>section.sec-four>div.container .left-text h1 {
          color: #abe2ff;
          font-size: 44px;
@@ -5814,21 +5667,15 @@ main>section.footer>div.copyright.animate-copyright-down {
          transform: translateY(0px);
          backface-visibility: hidden;
      }
-
      .animate-big-heading {
          animation: none;
      }
-
-
-
      main>section.sec-four>div.container .right-text {
          width: 294px;
          margin-left: auto;
          margin-right: auto;
          margin-top: -297px;
      }
-
-
      main>section.sec-four>div.container .right-text p {
          color: #73ffc2;
          font-size: 20px;
@@ -5842,12 +5689,9 @@ main>section.footer>div.copyright.animate-copyright-down {
          opacity: 1;
          transform: translateY(0px);
      }
-
      .animate-cyan-to-down p {
          animation: none;
      }
-
-
      main>section.sec-four>div.container .right-text p::before {
          content: "";
          position: absolute;
@@ -5860,8 +5704,6 @@ main>section.footer>div.copyright.animate-copyright-down {
          transform: scaleY(1);
          opacity: 1;
      }
-
-
      main>section.sec-four>div.container .right-text p::after {
          content: "";
          position: absolute;
@@ -5870,35 +5712,25 @@ main>section.footer>div.copyright.animate-copyright-down {
          width: 150px;
          height: .8px;
          display: none;
-
          background-color: #fff;
          opacity: 1;
          transform: scaleX(1);
      }
-
-
      .animate-cyan-to-down p::before {
          animation: none;
      }
-
      .animate-cyan-to-down p::after {
          animation: none;
      }
-
      .cta-btn {
          opacity: 1;
          transform: translateX(0px);
          margin: 220px auto 50px auto;
      }
-
-
      .cta-btn.animate-cta-btn {
-
          animation: none;
      }
-
      .btn-primary2 {
-         /* background-color: #a24fe3; */
          background-color: #c547ff;
          width: 210px;
          height: 42px;
@@ -5911,7 +5743,6 @@ main>section.footer>div.copyright.animate-copyright-down {
          margin-left: auto;
          margin-right: auto;
      }
-
      .btn-primary2 a {
          color: #fff;
          font-size: 20px;
@@ -5923,35 +5754,24 @@ main>section.footer>div.copyright.animate-copyright-down {
          font-weight: 500;
          cursor: pointer;
      }
-
-
-
      .btn-primary2:hover,
      .btn-primary2:visited {
-         /* transform: translateY(0px) scale(1.01); */
          background-color: #5630ff;
      }
-
      .btn-primary2:active,
      .btn-primary2:focus {
-         /* transform: translateY(5px) scale(1.01); */
          background-color: #5630ff;
      }
-
      .btn-primary2:hover a {
          color: #73ffc2;
      }
-
      body>main>section.sec-four>div.vertical-left2 {
          z-index: 185;
          position: absolute;
          left: 15px;
          margin-top: -295px;
-         /* display: flex; */
          display: none;
-
      }
-
      body>main>section.sec-four>div.vertical-left2 p {
          writing-mode: vertical-lr;
          text-orientation: mixed;
@@ -5960,13 +5780,8 @@ main>section.footer>div.copyright.animate-copyright-down {
          opacity: 0.8;
          letter-spacing: 0.1px;
          font-weight: 300;
-
      }
-
-
-
      /* -------------------- SECTION FIVE -------------------- */
-
      body>main>section.sec-five {
      height: 100vh;
      z-index: 190;
@@ -5978,25 +5793,16 @@ main>section.footer>div.copyright.animate-copyright-down {
      margin-left: auto;
      margin-right: auto;
  }
-
-
  body>main>section.sec-five .container {
      display: grid;
      grid-template-columns: 1fr;
      justify-content: center;
      grid-gap: 0px;
      margin: -260px 5px 50px 5px;
-
-
-
-
  }
-
  body>main>section.sec-five .container .left-text {
      margin: -30px 5px -195px 5px;
-
  }
-
  body>main>section.sec-five .container .left-text h2 {
      position: relative;
      color: #fff;
@@ -6006,31 +5812,21 @@ main>section.footer>div.copyright.animate-copyright-down {
      font-weight: 500;
      text-align: center;
      transform: translateX(0px);
-
  }
-
-
-
  body>main>section.sec-five .container .left-text h2.left-text-heading2.animate-heading2-to-right {
      animation: none;
  }
-
  body>main>section.sec-five .container .left-text h2::after {
-
      bottom: -8px;
      left: 91px;
      width: 152px;
      height: 2px;
-
      transition: all .31s ease-out;
      transform: scaleX(1);
  }
-
-
  body>main>section.sec-five .container .left-text h2.left-text-heading2.animate-heading2-to-right::after {
      animation: none;
  }
-
  body>main>section.sec-five .container .left-text h3:nth-child(2) {
      position: relative;
      color: #73ffc2;
@@ -6045,12 +5841,9 @@ main>section.footer>div.copyright.animate-copyright-down {
      transition: all .3s ease;
      transform: translateY(0px);
  }
-
  body>main>section.sec-five .container .left-text h3:nth-child(2).animate-heading3-to-up {
      animation: none;
  }
-
-
  body>main>section.sec-five .container .left-text h3:nth-child(3) {
      position: relative;
      color: #73ffc2;
@@ -6064,17 +5857,10 @@ main>section.footer>div.copyright.animate-copyright-down {
      margin-bottom: 19px;
      cursor: pointer;
      transition: all .3s ease;
-
  }
-
-
  body>main>section.sec-five .container .left-text h3:nth-child(3).animate-heading3-to-up {
      animation: none;
  }
-
-
-
-
  body>main>section.sec-five .container .left-text h3:nth-child(4) {
      position: relative;
      color: #73ffc2;
@@ -6088,19 +5874,13 @@ main>section.footer>div.copyright.animate-copyright-down {
      margin-bottom: 19px;
      cursor: pointer;
      transition: all .3s ease;
-
  }
-
  body>main>section.sec-five .container .left-text h3:nth-child(4).animate-heading3-to-up {
      animation: none;
  }
-
-
  body>main>section.sec-five .container .left-text {
      width: 280px;
-     /* margin-left: 20px; */
  }
-
  body>main>section.sec-five .container .right-text {
      color: #fff;
      text-align: center;
@@ -6112,7 +5892,6 @@ main>section.footer>div.copyright.animate-copyright-down {
      margin-right: auto;
      margin-top: 75px;
  }
-
  body>main>section.sec-five .container .right-text>p {
      opacity: 0.5;
      letter-spacing: 0.5px;
@@ -6122,13 +5901,9 @@ main>section.footer>div.copyright.animate-copyright-down {
      margin-bottom: 30px;
      transform: translateY(0px);
  }
-
  body>main>section.sec-five .container .right-text>p.animate-sec-five-paragraph-to-down {
      animation: none;
  }
-
-
-
  body>main>section.sec-five .container .right-text div.btn {
      height: 30px;
      width: 100px;
@@ -6136,26 +5911,18 @@ main>section.footer>div.copyright.animate-copyright-down {
      opacity: 1;
      margin: 0 auto;
  }
-
  body>main>section.sec-five .container .right-text div.btn.animate-sec-five-btn-to-left {
      animation: none;
  }
-
-
-
-
-
  body>main>section.sec-five .container .right-text a {
      letter-spacing: 0.5px;
      line-height: 25px;
      transition: all .31s ease-out;
      text-align: center;
  }
-
  body>main>section.sec-five .container .right-text div.btn:hover a {
      padding-left: 5px;
  }
-
  body>main>section.sec-five .container .right-text a::after {
      bottom: -8px;
      left: .5px;
@@ -6163,24 +5930,18 @@ main>section.footer>div.copyright.animate-copyright-down {
      height: .8px;
      transition: all .31s ease-out;
  }
-
  body>main>section.sec-five .container .right-text div.btn:hover a::after {
-
      left: 0px;
      width: 0;
      height: .8px;
      background-color: #73ffc2;
  }
-
-
  .vertical-right2 {
      position: absolute;
      top: 280px;
      right: 12px;
-     /* display: flex; */
      display: none;
  }
-
  .vertical-right2 p {
      writing-mode: vertical-lr;
      text-orientation: mixed;
@@ -6189,18 +5950,10 @@ main>section.footer>div.copyright.animate-copyright-down {
      opacity: 0.8;
      letter-spacing: 0.1px;
      font-weight: 300;
-
- }
-    
-    
+ }   
 /* ------------------------------------------------ */
-
-
 /* -------------------- FOOTER -------------------- */
  main>section.footer {
-      margin: 0px auto 0px auto;
-        
+      margin: 0px auto 0px auto;      
  }
-        
-    
 }
