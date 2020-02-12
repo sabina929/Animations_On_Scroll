@@ -4,20 +4,14 @@
     box-sizing: border-box;
     font-family: 'Open Sans';
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
     overflow-x: hidden;
-
     background-color: #1b073c;
 }
-
-
 /* ----------------------------------------------------- */
-
 /* ---------------------- LOADING ---------------------- */
 .wrapper {
     position: relative;
@@ -30,22 +24,18 @@ body {
     z-index: 999;
     transition: all .3s ease-out;
 }
-
 /* ----------------------------------------------------------- */
 
 /* -------------------- HEADER BACKGROUND -------------------- */
-
 header {
     width: 100vw;
     display: none;
     opacity: 0;
     transition: all .8s ease-in;
 }
-
 .bg {
     width: 100vw;
 }
-
 .bg-1 {
     position: absolute;
     top: 0;
@@ -55,7 +45,6 @@ header {
     width: 100vw;
     height: auto;
 }
-
 .bg-2 {
     position: absolute;
     top: 0;
@@ -65,7 +54,6 @@ header {
     width: 100vw;
     height: auto;
 }
-
 .bg-3 {
     position: absolute;
     top: 0;
@@ -75,7 +63,6 @@ header {
     width: 100vw;
     height: auto;
 }
-
 .bg-4 {
     position: absolute;
     top: 0;
@@ -85,7 +72,6 @@ header {
     width: 100vw;
     height: auto;
 }
-
 .bg-5 {
     position: absolute;
     top: 0;
@@ -95,7 +81,6 @@ header {
     width: 100vw;
     height: auto;
 }
-
 .bg-6 {
     position: absolute;
     top: 0;
@@ -105,7 +90,6 @@ header {
     width: 100vw;
     height: auto;
 }
-
 .bg-7 {
     position: absolute;
     top: 0;
@@ -115,7 +99,6 @@ header {
     width: 100vw;
     height: auto;
 }
-
 .bg-8 {
     position: absolute;
     top: 0;
@@ -125,17 +108,13 @@ header {
     width: 100vw;
     height: auto;
 }
-
 /* ----------------------------------------------------- */
-
 /* -------------------- NAVIGATION -------------------- */
-
 .navigation {
     display: none;
     opacity: 0;
     transition: all .8s ease-in;
 }
-
 .navigation-button {
     width: 50px;
     height: 50px;
@@ -148,12 +127,10 @@ header {
     text-align: center;
     cursor: pointer;
 }
-
 .navigation-icon {
     position: relative;
     margin-top: 24px;
 }
-
 .navigation-icon,
 .navigation-icon::before,
 .navigation-icon::after {
@@ -163,38 +140,29 @@ header {
     display: inline-block;
     transition: all .5s cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.05s;
 }
-
 .navigation-icon::before,
 .navigation-icon::after {
     content: "";
     position: absolute;
     left: 0;
 }
-
 .navigation-icon::before {
     top: -9px;
 }
-
 .navigation-icon::after {
     top: 9px;
 }
-
-
-
 .navigation-button.close .navigation-icon {
     background-color: transparent;
 }
-
 .navigation-button.close .navigation-icon::before {
     top: 0;
     transform: rotate(135deg);
 }
-
 .navigation-button.close .navigation-icon::after {
     top: 0;
     transform: rotate(-135deg);
 }
-
 .navigation-background {
     height: 100vh;
     width: 0;
@@ -206,7 +174,6 @@ header {
     background-color: hsl(272, 100%, 31%);
     z-index: 450;
 }
-
 .navigation-background.open {
     height: 100vh;
     width: 345px;
@@ -214,18 +181,14 @@ header {
     opacity: 1;
     animation: fadeIn .8s cubic-bezier(0.23, 0.28, 0.34, 0.93) forwards;
 }
-
 @keyframes fadeIn {
-
     0% {
         right: -345px;
     }
-
     100% {
         right: 0;
     }
 }
-
 .navigation-nav {
     height: 100vh;
     position: fixed;
@@ -236,26 +199,20 @@ header {
     min-width: 0;
     visibility: hidden;
     transition: all 0.5s cubic-bezier(0.23, 0.28, 0.34, 0.93);
-
 }
-
 .navigation-nav.fade-in {
     animation: fade-in 1s cubic-bezier(0.23, 0.28, 0.34, 0.93) 0.2s forwards;
     min-width: 400px;
     visibility: visible;
 }
-
 @keyframes fade-in {
-
     0% {
         opacity: 0;
     }
-
     100% {
         opacity: 1;
     }
 }
-
 .navigation-list {
     position: absolute;
     top: 50%;
@@ -265,11 +222,9 @@ header {
     text-align: right;
     width: 100%;
 }
-
 .navigation-item {
     margin: 1rem;
 }
-
 .navigation-link:link,
 .navigation-link:visited {
     display: inline-block;
@@ -282,17 +237,13 @@ header {
     transition: all .4s;
     backface-visibility: hidden;
 }
-
 .navigation-link:hover,
 .navigation-link:active {
-
     color: #25dbbd;
     background-position: 100%;
     transform: translateX(-10px);
 }
-
 /* ----------------------------------------------------------- */
-
 /* -------------------- HEADER FOREGROUND -------------------- */
 .logo {
     display: none;
@@ -303,11 +254,9 @@ header {
     top: 28px;
     left: 43px;
 }
-
 .logo img {
     width: 55.4px;
 }
-
 .header-text {
     display: none;
     opacity: 0;
@@ -316,10 +265,7 @@ header {
     position: absolute;
     top: 29%;
     left: 10%;
-
-
 }
-
 .header-text h1 {
     font-size: 80px;
     font-weight: bolder;
@@ -332,19 +278,16 @@ header {
     animation: textFadeDown .7s ease-out 1.2s forwards;
     backface-visibility: hidden;
 }
-
 @keyframes textFadeDown {
     0% {
         opacity: 0;
         transform: translateY(-30px);
     }
-
     100% {
         opacity: 1;
         transform: translateY(0px);
     }
 }
-
 .header-text p {
     font-size: 24px;
     font-weight: bolder;
@@ -357,19 +300,16 @@ header {
     animation: textFadeDown2 .9s ease-out 1.4s forwards;
     backface-visibility: hidden;
 }
-
 @keyframes textFadeDown2 {
     0% {
         opacity: 0;
         transform: translateY(-15px);
     }
-
     100% {
         opacity: 1;
         transform: translateY(0px);
     }
 }
-
 .cta {
     display: none;
     opacity: 0;
@@ -378,9 +318,7 @@ header {
     position: absolute;
     top: 54.3%;
     right: 10%;
-
 }
-
 .btn-primary {
     background-color: #5bf1d1;
     width: 287px;
@@ -394,20 +332,16 @@ header {
     animation: textFadeDown2 .9s ease-out 1.6s forwards;
     backface-visibility: hidden;
 }
-
 @keyframes textFadeDown2 {
     0% {
         opacity: 0;
         transform: translateY(-15px);
     }
-
     100% {
         opacity: 1;
         transform: translateY(0px);
     }
 }
-
-
 .cta p {
     font-size: 18px;
     word-spacing: 1.2px;
@@ -424,19 +358,16 @@ header {
     backface-visibility: hidden;
     transition: all .4s;
 }
-
 @keyframes textFadeDown2 {
     0% {
         opacity: 0;
         transform: translateY(-15px) scale(1);
     }
-
     100% {
         opacity: 1;
         transform: translateY(0px) scale(1);
     }
 }
-
 .btn-primary a {
     color: #1b073c;
     font-size: 36px;
@@ -446,27 +377,21 @@ header {
     word-spacing: 1.2px;
     text-decoration: none;
 }
-
 .btn-primary:hover,
 .btn-primary:visited {
     /* transform: translateY(0px) scale(1.01); */
     background-color: #5630ff;
 }
-
 .btn-primary:active,
 .btn-primary:focus {
     /* transform: translateY(5px) scale(1.01); */
     background-color: #5630ff;
 }
-
 .btn-primary:hover a {
     color: #73ffc2;
 }
-
 /* -------------------------------------------------------- */
-
 /* -------------------- SCROLLING ICON -------------------- */
-
 .scrolling {
     display: none;
     opacity: 0;
@@ -477,7 +402,6 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .scrolling .mouse {
     position: relative;
     width: 30px;
@@ -485,9 +409,7 @@ header {
     border: 1.3px solid rgba(255, 255, 255, 0.3);
     border-radius: 50px;
     animation: moveDown 1.8s linear infinite;
-
 }
-
 .scrolling .mouse::before {
     content: "";
     position: absolute;
@@ -501,9 +423,7 @@ header {
     animation: moveDown1 1.8s linear infinite;
     backface-visibility: hidden;
     transform-origin: bottom;
-
 }
-
 .scrolling .mouse::after {
     content: "";
     position: absolute;
@@ -518,64 +438,46 @@ header {
     backface-visibility: hidden;
     transform-origin: bottom;
 }
-
 @keyframes moveDown {
     50% {
         /* height: 7px; */
         transform: translateY(18px);
-
     }
-
 }
-
 @keyframes moveDown1 {
     0% {
         transform: translate(-50%, -50%);
         opacity: 1;
     }
-
     100% {
         transform: translate(-50%, 60%);
         opacity: 0.3;
     }
 }
-
 @keyframes moveDown2 {
     0% {
         transform: translate(-50%, -50%);
         opacity: 1;
     }
-
     100% {
         transform: translate(-50%, 40%);
         opacity: 0.5;
     }
-
 }
-
-
-
 /* ----------------------------------------------------- */
-
 /* ----------------------- MAIN ----------------------- */
-
 main {
     display: none;
     opacity: 0;
     transition: all .8s ease-in;
 }
-
 main>div.bg {
     position: absolute;
     margin-top: -30px;
     z-index: 1;
 }
-
-
 /* ----------------------------------------------------- */
-
 /* -------------------- SECTION ONE -------------------- */
-
 body>main>section.sec-one {
     width: 100vw;
     justify-content: center;
@@ -584,17 +486,13 @@ body>main>section.sec-one {
     z-index: 100;
     transition: all .8s ease-in;
     position: relative;
-
 }
-
 body>main>section.sec-one>div.container {
     display: grid;
     grid-template-columns: .4fr .6fr;
     grid-gap: 120px;
     margin: 20px 200px 100px 210px;
-
 }
-
 body>main>section.sec-one>div.container>div.left-text {
     color: #a24fe3;
     text-align: right;
@@ -602,27 +500,20 @@ body>main>section.sec-one>div.container>div.left-text {
     width: 400px;
     margin-left: 80px;
     opacity: 0;
-
 }
-
-
 .animate-to-right {
     animation: fadeToRight 1.5s ease 0.5s forwards;
 }
-
 @keyframes fadeToRight {
     from {
         transform: translateX(-100px);
         opacity: 0;
     }
-
     to {
         transform: translateX(0px);
         opacity: 1;
     }
 }
-
-
 body>main>section.sec-one>div.container>div.right-text {
     color: #fff;
     text-align: left;
@@ -633,10 +524,6 @@ body>main>section.sec-one>div.container>div.right-text {
     margin-left: 90px;
     margin-top: 5px;
 }
-
-
-
-
 body>main>section.sec-one>div.container>div.right-text p {
     letter-spacing: 0.5px;
     line-height: 30px;
@@ -644,47 +531,38 @@ body>main>section.sec-one>div.container>div.right-text p {
     margin-bottom: 30px;
     opacity: 0;
 }
-
 .animate-to-left {
     animation: fadeToLeft 1.5s ease 0.5s forwards;
 }
-
 @keyframes fadeToLeft {
     from {
         transform: translateX(100px);
         opacity: 0;
     }
-
     to {
         transform: translateX(0px);
         opacity: 0.5;
     }
 }
-
 body>main>section.sec-one>div.container>div.right-text div.btn {
     height: 30px;
     width: 100px;
     cursor: pointer;
     opacity: 0;
 }
-
-
 .animate-to-down {
     animation: fadeToDown 1.5s ease 0.5s forwards;
 }
-
 @keyframes fadeToDown {
     from {
         transform: translateY(50px);
         opacity: 0;
     }
-
     to {
         transform: translateY(0px);
         opacity: 1;
     }
 }
-
 body>main>section.sec-one>div.container>div.right-text a {
     color: #fff;
     position: relative;
@@ -693,8 +571,6 @@ body>main>section.sec-one>div.container>div.right-text a {
     text-decoration: none;
     transition: all .31s ease-out;
 }
-
-
 body>main>section.sec-one>div.container>div.right-text div.btn:hover a {
     padding-left: 5px;
 }
@@ -709,18 +585,13 @@ body>main>section.sec-one>div.container>div.right-text a::after {
     background-color: #a24fe3;
     transition: all .31s ease-out;
 }
-
 body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
     left: 0px;
     width: 0;
     height: .8px;
     background-color: #73ffc2;
 }
-
-
-
 /* ------------------- VERTICAL TEXT ------------------- */
-
 .vertical-left {
     color: #fff;
     writing-mode: vertical-lr;
@@ -733,9 +604,7 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
     letter-spacing: 0.5px;
     font-weight: 300;
     display: flex;
-
 }
-
 .vertical-left p::before {
     content: "";
     position: absolute;
@@ -747,29 +616,23 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
     opacity: 0;
     transform-origin: top;
 }
-
 .animate-paragraph-to-right::before {
     animation: paragraphToRightBefore 1.5s ease 2.4s forwards;
 }
-
 @keyframes paragraphToRightBefore {
     0% {
         opacity: 0;
         transform: translateY(0px) scaleY(0);
     }
-
     50% {
         opacity: 0.4;
         transform: translateY(-20px) scaleY(1.8);
-
     }
-
     100% {
         opacity: 0.8;
         transform: translateY(0px) scaleY(1);
     }
 }
-
 .vertical-left p::after {
     content: "";
     position: absolute;
@@ -780,142 +643,95 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
     background-color: #fff;
     opacity: 0;
     transform-origin: top;
-
 }
-
 .animate-paragraph-to-right::after {
     animation: paragraphToRight 1.5s ease 2.4s forwards;
 }
-
 @keyframes paragraphToRight {
     0% {
         opacity: 0;
         transform: translateY(0px) scaleY(0);
     }
-
     50% {
         opacity: 0.4;
         transform: translateY(10px) scaleY(1.8);
     }
-
     100% {
         opacity: 0.8;
         transform: translateY(0px) scaleY(1);
     }
 }
-
 .vertical-left p .letter {
     opacity: 0;
     transform: translateX(-3px);
     width: 13;
     display: inline-block;
 }
-
 .vertical-left p .letter:nth-child(1).animate-letter-to-right {
     animation: letterToRight .3s ease 0.7s forwards;
-
 }
-
 .vertical-left p .letter:nth-child(2).animate-letter-to-right {
     animation: letterToRight .3s ease 0.8s forwards;
-
 }
-
 .vertical-left p .letter:nth-child(3).animate-letter-to-right {
     animation: letterToRight .3s ease 0.9s forwards;
-
 }
-
 .vertical-left p .letter:nth-child(4).animate-letter-to-right {
     animation: letterToRight .3s ease 1s forwards;
-
 }
-
 .vertical-left p .letter:nth-child(5).animate-letter-to-right {
     animation: letterToRight .3s ease 1.1s forwards;
-
 }
-
 .vertical-left p .letter:nth-child(6).animate-letter-to-right {
     animation: letterToRight .3s ease 1.2s forwards;
 }
-
 .vertical-left p .letter:nth-child(7).animate-letter-to-right {
     animation: letterToRight .3s ease 1.3s forwards;
-
 }
-
 .vertical-left p .letter:nth-child(8).animate-letter-to-right {
     animation: letterToRight .3s ease 1.4s forwards;
-
 }
-
 .vertical-left p .letter:nth-child(9).animate-letter-to-right {
     animation: letterToRight .3s ease 1.5s forwards;
-
 }
-
 .vertical-left p .letter:nth-child(10).animate-letter-to-right {
     animation: letterToRight .3s ease 1.6s forwards;
-
 }
-
 .vertical-left p .letter:nth-child(11).animate-letter-to-right {
     animation: letterToRight .3s ease 1.7s forwards;
-
 }
-
 .vertical-left p .letter:nth-child(12).animate-letter-to-right {
     animation: letterToRight .3s ease 1.8s forwards;
-
 }
-
 .vertical-left p .letter:nth-child(13).animate-letter-to-right {
     animation: letterToRight .3s ease 1.9s forwards;
-
 }
-
 .vertical-left p .letter:nth-child(14).animate-letter-to-right {
     animation: letterToRight .3s ease 2s forwards;
-
 }
-
 .vertical-left p .letter:nth-child(15).animate-letter-to-right {
     animation: letterToRight .3s ease 2.1s forwards;
-
 }
-
 .vertical-left p .letter:nth-child(16).animate-letter-to-right {
     animation: letterToRight .3s ease 2.2s forwards;
-
 }
-
 .vertical-left p .letter:nth-child(17).animate-letter-to-right {
     animation: letterToRight .3s ease 2.3s forwards;
-
 }
-
 .vertical-left p .letter:nth-child(18).animate-letter-to-right {
     animation: letterToRight .3s ease 2.4s forwards;
-
 }
-
-
 @keyframes letterToRight {
     from {
         transform: translateX(-3px);
         opacity: 0;
     }
-
     to {
         transform: translateX(0px);
         opacity: 0.8;
-
     }
 }
-
 /* ----------------------------------------------------- */
-
 /* -------------------- SECTION TWO -------------------- */
 .sec-two {
     width: 100vw;
@@ -926,21 +742,15 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
     transition: all .8s ease-in;
     position: relative;
 }
-
 .sec-two .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
     margin: 200px 260px 100px 290px;
-
 }
-
 .sec-two .container .left-text {
-
     margin-top: 50px;
-
 }
-
 .sec-two .container .left-text h2 {
     position: relative;
     color: #fff;
@@ -949,23 +759,19 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
     margin-bottom: 50px;
     font-weight: 500;
 }
-
 .sec-two .container .left-text h2.animate-heading-to-right {
     animation: headingToRight 1.5s ease 0.5s forwards;
 }
-
 @keyframes headingToRight {
     from {
         transform: translateX(-100px);
         opacity: 0;
     }
-
     to {
         transform: translateX(0px);
         opacity: .9;
     }
 }
-
 .sec-two .container .left-text h2::after {
     content: "";
     position: absolute;
@@ -976,29 +782,21 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
     background-color: #73ffc2;
     transition: all .31s ease-out;
     transform: scaleX(0);
-
 }
-
 .sec-two .container .left-text h2.animate-heading-to-right::after {
     animation: heaidngAfter 1.1s ease .8s forwards;
 }
-
 @keyframes heaidngAfter {
     0% {
         transform: scaleX(0);
     }
-
     50% {
         transform: scaleX(1.1);
-
     }
-
     100% {
         transform: scaleX(1);
-
     }
 }
-
 .sec-two .container .left-text p {
     position: relative;
     color: #fff;
@@ -1012,24 +810,19 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
     width: 442px;
     transform: translateY(60px);
 }
-
 .sec-two .container .left-text p.animate-paragraph-to-up {
-
     animation: paragraphUp 1.3s ease 1.2s forwards;
 }
-
 @keyframes paragraphUp {
     0% {
         transform: translateY(60px);
         opacity: 0;
     }
-
     100% {
         transform: translateY(0px);
         opacity: 0.5;
     }
 }
-
 .sec-two .container .right-text img {
     width: 90%;
     margin-top: -45px;
@@ -1037,27 +830,20 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
     opacity: 0;
     transform: translateX(70px);
 }
-
 .animate-img-to-left {
-
     animation: imgLeft 1.3s ease 1.2s forwards;
 }
-
 @keyframes imgLeft {
     0% {
         transform: translateX(70px);
         opacity: 0;
     }
-
     100% {
         transform: translateX(0px);
         opacity: 1;
     }
 }
-
-
 /* ------------------- VERTICAL TEXT ------------------- */
-
 .vertical-right {
     color: #fff;
     writing-mode: vertical-lr;
@@ -1071,7 +857,6 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
     font-weight: 300;
     display: flex;
 }
-
 .vertical-right p::before {
     content: "";
     position: absolute;
@@ -1083,9 +868,6 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
     opacity: 0;
     transform-origin: top;
 }
-
-
-
 .vertical-right p::after {
     content: "";
     position: absolute;
@@ -1097,133 +879,84 @@ body>main>section.sec-one>div.container>div.right-text div.btn:hover a::after {
     opacity: 0;
     transform-origin: top;
 }
-
 .vertical-right p .letter {
     opacity: 0;
     transform: translateX(-3px);
     width: 13;
-
     display: inline-block;
 }
-
 .vertical-right p .letter:nth-child(1).animate-letter-to-right {
     animation: letterToRight .3s ease 0.7s forwards;
-
 }
-
 .vertical-right p .letter:nth-child(2).animate-letter-to-right {
     animation: letterToRight .3s ease 0.8s forwards;
-
 }
-
 .vertical-right p .letter:nth-child(3).animate-letter-to-right {
     animation: letterToRight .3s ease 0.9s forwards;
-
 }
-
 .vertical-right p .letter:nth-child(4).animate-letter-to-right {
     animation: letterToRight .3s ease 1s forwards;
-
 }
-
 .vertical-right p .letter:nth-child(5).animate-letter-to-right {
     animation: letterToRight .3s ease 1.1s forwards;
-
 }
-
 .vertical-right p .letter:nth-child(6).animate-letter-to-right {
     animation: letterToRight .3s ease 1.2s forwards;
 }
-
 .vertical-right p .letter:nth-child(7).animate-letter-to-right {
     animation: letterToRight .3s ease 1.3s forwards;
-
 }
-
 .vertical-right p .letter:nth-child(8).animate-letter-to-right {
     animation: letterToRight .3s ease 1.4s forwards;
-
 }
-
 .vertical-right p .letter:nth-child(9).animate-letter-to-right {
     animation: letterToRight .3s ease 1.5s forwards;
-
 }
-
 .vertical-right p .letter:nth-child(10).animate-letter-to-right {
     animation: letterToRight .3s ease 1.6s forwards;
-
 }
-
 .vertical-right p .letter:nth-child(11).animate-letter-to-right {
     animation: letterToRight .3s ease 1.7s forwards;
-
 }
-
 .vertical-right p .letter:nth-child(12).animate-letter-to-right {
     animation: letterToRight .3s ease 1.8s forwards;
-
 }
-
 .vertical-right p .letter:nth-child(13).animate-letter-to-right {
     animation: letterToRight .3s ease 1.9s forwards;
-
 }
-
 .vertical-right p .letter:nth-child(14).animate-letter-to-right {
     animation: letterToRight .3s ease 2s forwards;
-
 }
-
 .vertical-right p .letter:nth-child(15).animate-letter-to-right {
     animation: letterToRight .3s ease 2.1s forwards;
-
 }
-
 .vertical-right p .letter:nth-child(16).animate-letter-to-right {
     animation: letterToRight .3s ease 2.2s forwards;
-
 }
-
 .vertical-right p .letter:nth-child(17).animate-letter-to-right {
     animation: letterToRight .3s ease 2.3s forwards;
-
 }
-
 .vertical-right p .letter:nth-child(18).animate-letter-to-right {
     animation: letterToRight .3s ease 2.4s forwards;
-
 }
-
-
 @keyframes letterToRight {
     from {
         transform: translateX(-3px);
         opacity: 0;
-
-        /* width: 0; */
     }
-
     to {
         transform: translateX(0px);
         opacity: 0.8;
-        /* width: 100%; */
-
     }
 }
-
 /* ----------------------------------------------------- */
-
 /* -------------------- SECTION THREE -------------------- */
-
-
 main>section.sec-three>div>img:nth-child(1) {
     position: absolute;
     margin-top: -80px;
     z-index: 160;
     width: 100vw;
 }
-
 main>section.sec-three>div>img:nth-child(2) {
     position: absolute;
     margin-top: 20px;
@@ -1231,7 +964,6 @@ main>section.sec-three>div>img:nth-child(2) {
     width: -100vw;
     animation: clouds 35s linear infinite;
 }
-
 main>section.sec-three>div>img:nth-child(3) {
     position: absolute;
     margin-top: 60px;
@@ -1240,62 +972,45 @@ main>section.sec-three>div>img:nth-child(3) {
     width: 100vw;
     animation: clouds2 35s linear infinite;
 }
-
 main>section.sec-three>div>img:nth-child(4) {
     position: absolute;
     margin-top: -120px;
     z-index: 162;
     width: 100vw;
 }
-
-
 @keyframes clouds {
     0% {
         transform: translateX(0);
     }
-
     100% {
         transform: translateX(-1500px);
-
     }
 }
-
 @keyframes clouds2 {
     0% {
         transform: translateX(1500px);
     }
-
     100% {
         transform: translateX(-300px);
-
     }
 }
-
-
 /* ----------------------------------------------------- */
-
 /* -------------------- SECTION FOUR -------------------- */
-
-
 main>section.sec-four {
     margin-left: 120px;
     margin-right: auto;
-
     margin-top: 850px;
     height: 100vh;
 }
-
 main>section.sec-four>div.bg {
     z-index: 180;
     position: absolute;
 }
-
 main>section.sec-four>div.bg img {
     height: 1670px;
     width: 100vw;
     margin-left: -120px;
 }
-
 main>section.sec-four>div.container {
     z-index: 181;
     position: absolute;
@@ -1304,17 +1019,11 @@ main>section.sec-four>div.container {
     grid-template-rows: 400px;
     grid-gap: 0px;
     margin: 30px 205px 15px 235px;
-
 }
-
 main>section.sec-four>div.container .left-text {
     width: 480px;
 }
-
 main>section.sec-four>div.container .left-text h1 {
-    /* color: #fff; */
-    /* color: #912fe6; */
-    /* color: #8476ff; */
     color: #abe2ff;
     font-size: 78px;
     opacity: 0;
@@ -1322,31 +1031,24 @@ main>section.sec-four>div.container .left-text h1 {
     transform: translateY(70px);
     backface-visibility: hidden;
 }
-
 .animate-big-heading {
-
     animation: bigHeadingToUp 1.4s ease .5s forwards;
 }
-
 @keyframes bigHeadingToUp {
     0% {
         transform: translateY(70px);
         opacity: 0;
     }
-
     100% {
         transform: translateY(0px);
         opacity: .12;
     }
 }
-
 main>section.sec-four>div.container .right-text {
     width: 400px;
     margin-left: -53px;
     margin-top: 98px;
-
 }
-
 main>section.sec-four>div.container .right-text p {
     color: #73ffc2;
     font-size: 26px;
@@ -1360,23 +1062,19 @@ main>section.sec-four>div.container .right-text p {
     opacity: 0;
     transform: translateY(-70px);
 }
-
 .animate-cyan-to-down p {
     animation: cyanToDown 1.2s ease .6s forwards;
 }
-
 @keyframes cyanToDown {
     0% {
         transform: translateY(-70px);
         opacity: 0;
     }
-
     100% {
         transform: translateY(0px);
         opacity: 1;
     }
 }
-
 main>section.sec-four>div.container .right-text p::before {
     content: "";
     position: absolute;
@@ -1389,24 +1087,19 @@ main>section.sec-four>div.container .right-text p::before {
     transform-origin: bottom;
     transform: scaleY(0);
 }
-
 .animate-cyan-to-down p::before {
     animation: cyanBeforeToUp 1s ease 1.3s forwards;
 }
-
 @keyframes cyanBeforeToUp {
     0% {
         transform: scaleY(0);
         opacity: 0;
     }
-
     100% {
         transform: scaleY(1);
         opacity: 1;
     }
 }
-
-
 main>section.sec-four>div.container .right-text p::after {
     content: "";
     position: absolute;
@@ -1419,50 +1112,40 @@ main>section.sec-four>div.container .right-text p::after {
     transform-origin: left;
     transform: scaleX(0);
 }
-
 .animate-cyan-to-down p::after {
     animation: cyanAfterToRight 1s ease 1.1s forwards;
 }
-
 @keyframes cyanAfterToRight {
     0% {
         transform: scaleX(0);
         opacity: 0;
     }
-
     100% {
         transform: scaleX(1);
         opacity: 1;
     }
 }
-
-
 .cta-btn {
     opacity: 0;
     transform: translateX(50px);
 }
-
 .cta-btn.animate-cta-btn {
     animation: ctaBtnLeft 2.2s ease .6s forwards;
 }
-
 @keyframes ctaBtnLeft {
     0% {
         transform: translateX(50px);
         opacity: 0;
     }
-
     40% {
         transform: translateX(-30px);
         opacity: .4;
     }
-
     100% {
         transform: translateX(0px);
         opacity: 1;
     }
 }
-
 .btn-primary2 {
     background-color: #c547ff;
     width: 287px;
@@ -1474,7 +1157,6 @@ main>section.sec-four>div.container .right-text p::after {
     backface-visibility: hidden;
     margin-top: 50px;
 }
-
 .btn-primary2 a {
     color: #fff;
     font-size: 36px;
@@ -1486,26 +1168,18 @@ main>section.sec-four>div.container .right-text p::after {
     font-weight: 500;
     cursor: pointer;
 }
-
-
-
 .btn-primary2:hover,
 .btn-primary2:visited {
     background-color: #5630ff;
 }
-
 .btn-primary2:active,
 .btn-primary2:focus {
     background-color: #5630ff;
 }
-
 .btn-primary2:hover a {
     color: #73ffc2;
 }
-
-
 /* ------------------- VERTICAL TEXT ------------------- */
-
 body>main>section.sec-four>div.vertical-left2 {
     z-index: 182;
     position: absolute;
@@ -1513,7 +1187,6 @@ body>main>section.sec-four>div.vertical-left2 {
     margin-top: 420px;
     display: flex;
 }
-
 body>main>section.sec-four>div.vertical-left2 p {
     writing-mode: vertical-lr;
     text-orientation: mixed;
@@ -1522,9 +1195,7 @@ body>main>section.sec-four>div.vertical-left2 p {
     opacity: 0.8;
     letter-spacing: 0.5px;
     font-weight: 300;
-
 }
-
 body>main>section.sec-four>div.vertical-left2 p::before {
     content: "";
     position: absolute;
@@ -1535,32 +1206,24 @@ body>main>section.sec-four>div.vertical-left2 p::before {
     background-color: #fff;
     opacity: 0;
     transform-origin: top;
-
 }
-
-
 .animate-paragraph-to-right::before {
     animation: paragraphToRightBefore 1.5s ease 2.4s forwards;
 }
-
 @keyframes paragraphToRightBefore {
     0% {
         opacity: 0;
         transform: translateY(0px) scaleY(0);
     }
-
     50% {
         opacity: 0.4;
         transform: translateY(-20px) scaleY(1.8);
-
     }
-
     100% {
         opacity: 0.8;
         transform: translateY(0px) scaleY(1);
     }
 }
-
 body>main>section.sec-four>div.vertical-left2 p::after {
     content: "";
     position: absolute;
@@ -1572,30 +1235,24 @@ body>main>section.sec-four>div.vertical-left2 p::after {
     opacity: 0;
     transform-origin: top;
 }
-
 .animate-paragraph-to-right::after {
     animation: paragraphToRight 1.5s ease 2.4s forwards;
 }
-
 @keyframes paragraphToRight {
     0% {
         opacity: 0;
         transform: translateY(0px) scaleY(0);
     }
-
     50% {
         opacity: 0.4;
         transform: translateY(10px) scaleY(1.8);
     }
-
     100% {
         opacity: 0.8;
         transform: translateY(0px) scaleY(1);
     }
 }
-
 /* ----------------------- */
-
 /* ------------------- VERTICAL TEXT ------------------- */
 .vertical-left2 p .letter {
     opacity: 0;
@@ -1603,113 +1260,72 @@ body>main>section.sec-four>div.vertical-left2 p::after {
     width: 13;
     display: inline-block;
 }
-
 .vertical-left2 p .letter:nth-child(1).animate-letter-to-right {
     animation: letterToRight .3s ease 0.7s forwards;
-
 }
-
 .vertical-left2 p .letter:nth-child(2).animate-letter-to-right {
     animation: letterToRight .3s ease 0.8s forwards;
-
 }
-
 .vertical-left2 p .letter:nth-child(3).animate-letter-to-right {
     animation: letterToRight .3s ease 0.9s forwards;
-
 }
-
 .vertical-left2 p .letter:nth-child(4).animate-letter-to-right {
     animation: letterToRight .3s ease 1s forwards;
-
 }
-
 .vertical-left2 p .letter:nth-child(5).animate-letter-to-right {
     animation: letterToRight .3s ease 1.1s forwards;
-
 }
-
 .vertical-left2 p .letter:nth-child(6).animate-letter-to-right {
     animation: letterToRight .3s ease 1.2s forwards;
 }
-
 .vertical-left2 p .letter:nth-child(7).animate-letter-to-right {
     animation: letterToRight .3s ease 1.3s forwards;
-
 }
-
 .vertical-left2 p .letter:nth-child(8).animate-letter-to-right {
     animation: letterToRight .3s ease 1.4s forwards;
-
 }
-
 .vertical-left2 p .letter:nth-child(9).animate-letter-to-right {
     animation: letterToRight .3s ease 1.5s forwards;
-
 }
-
 .vertical-left2 p .letter:nth-child(10).animate-letter-to-right {
     animation: letterToRight .3s ease 1.6s forwards;
-
 }
-
 .vertical-left2 p .letter:nth-child(11).animate-letter-to-right {
     animation: letterToRight .3s ease 1.7s forwards;
-
 }
-
 .vertical-left2 p .letter:nth-child(12).animate-letter-to-right {
     animation: letterToRight .3s ease 1.8s forwards;
-
 }
-
 .vertical-left2 p .letter:nth-child(13).animate-letter-to-right {
     animation: letterToRight .3s ease 1.9s forwards;
-
 }
-
 .vertical-left2 p .letter:nth-child(14).animate-letter-to-right {
     animation: letterToRight .3s ease 2s forwards;
-
 }
-
 .vertical-left2 p .letter:nth-child(15).animate-letter-to-right {
     animation: letterToRight .3s ease 2.1s forwards;
-
 }
-
 .vertical-left2 p .letter:nth-child(16).animate-letter-to-right {
     animation: letterToRight .3s ease 2.2s forwards;
-
 }
-
 .vertical-left2 p .letter:nth-child(17).animate-letter-to-right {
     animation: letterToRight .3s ease 2.3s forwards;
-
 }
-
 .vertical-left2 p .letter:nth-child(18).animate-letter-to-right {
     animation: letterToRight .3s ease 2.4s forwards;
-
 }
-
-
 @keyframes letterToRight {
     from {
         transform: translateX(-3px);
         opacity: 0;
     }
-
     to {
         transform: translateX(0px);
         opacity: 0.8;
     }
 }
-
 /* ----------------------------------------------------- */
-
 /* -------------------- SECTION FIVE -------------------- */
-
 body>main>section.sec-five {
     height: 100vh;
     z-index: 190;
@@ -1717,15 +1333,12 @@ body>main>section.sec-five {
     margin-left: 90px;
     width: 90vw;
 }
-
 body>main>section.sec-five .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
     margin: -120px 200px 100px 238px;
-
 }
-
 body>main>section.sec-five .container .left-text h2 {
     position: relative;
     color: #fff;
@@ -1735,26 +1348,20 @@ body>main>section.sec-five .container .left-text h2 {
     font-weight: 500;
     transform: translateX(-100px);
     opacity: 0;
-
 }
-
 body>main>section.sec-five .container .left-text h2.left-text-heading2.animate-heading2-to-right {
     animation: headingTwoToRight 1.5s ease 0.5s forwards;
 }
-
 @keyframes headingTwoToRight {
     from {
         transform: translateX(-100px);
         opacity: 0;
     }
-
     to {
         transform: translateX(0px);
         opacity: .9;
     }
 }
-
-
 body>main>section.sec-five .container .left-text h2::after {
     content: "";
     position: absolute;
@@ -1766,28 +1373,20 @@ body>main>section.sec-five .container .left-text h2::after {
     transition: all .31s ease-out;
     transform: scaleX(0);
 }
-
-
 body>main>section.sec-five .container .left-text h2.left-text-heading2.animate-heading2-to-right::after {
     animation: heaidngTwoAfter 1.1s ease .9s forwards;
 }
-
 @keyframes heaidngTwoAfter {
     0% {
         transform: scaleX(0);
     }
-
     50% {
         transform: scaleX(1.1);
-
     }
-
     100% {
         transform: scaleX(1);
-
     }
 }
-
 body>main>section.sec-five .container .left-text h3:nth-child(2) {
     position: relative;
     color: #73ffc2;
@@ -1802,23 +1401,19 @@ body>main>section.sec-five .container .left-text h3:nth-child(2) {
     transition: all .3s ease;
     transform: translateY(20px);
 }
-
 body>main>section.sec-five .container .left-text h3:nth-child(2).animate-heading3-to-up {
     animation: heaidngThreeFirst 1s ease 1.1s forwards;
 }
-
 @keyframes heaidngThreeFirst {
     0% {
         transform: translateY(20px);
         opacity: 0;
     }
-
     100% {
         transform: translateY(0);
         opacity: 1;
     }
 }
-
 body>main>section.sec-five .container .left-text h3:nth-child(3) {
     position: relative;
     color: #73ffc2;
@@ -1831,14 +1426,10 @@ body>main>section.sec-five .container .left-text h3:nth-child(3) {
     margin-bottom: 45px;
     cursor: pointer;
     transition: all .3s ease;
-
 }
-
-
 body>main>section.sec-five .container .left-text h3:nth-child(3).animate-heading3-to-up {
     animation: heaidngThreeSecond 1s ease 1.2s forwards;
 }
-
 @keyframes heaidngThreeSecond {
     0% {
         transform: translateY(20px);
