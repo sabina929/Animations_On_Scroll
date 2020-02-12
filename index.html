@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,15 +9,11 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js" integrity="sha256-v00gso3ox/d0KLJDJew6+zm29+J39rYWZvOgoXzDtCs=" crossorigin="anonymous"></script>
-
     <title>Document</title>
 </head>
-
 <body>
-
     <div class="wrapper">
         <div class="loader">
-
         </div>
     </div>
     <header>
@@ -40,20 +35,15 @@
                 alt="bg-layer">
         </div>
     </header>
-    
     <div class="logo">
         <img src="./images/logo-12.png" alt="logo">
     </div>
-
-   
     <!-- NAVIGATION -->
     <div class="navigation">
         <div class="navigation-button">
             <span class="navigation-icon"></span>
         </div>
-
         <div class="navigation-background"></div>
-
         <nav class="navigation-nav">
             <ul class="navigation-list">
                 <li class="navigation-item"><a href="#adipicit" class="navigation-link">Adipicit</a></li>
@@ -65,7 +55,6 @@
         </nav>
     </div>
     <!------------------------------------>
-    
     <div class="header-text">
         <h1>Lorem<br>Ipsum Dolor<br>Sit Amet</h1>
         <p>Lorem ipsum dolor sit amet adipicit<br>consectetur lorem adipicit.</p>
@@ -77,17 +66,11 @@
     <div class="scrolling">
         <div class="mouse"></div>
     </div>
-
-    
-    
-    
 <!-- MAIN -->
     <main>
         <div class="bg">
             <img id="adipicit" src="images/bg-11.png" alt="background image">
-        </div>
-        
-        
+        </div>        
 <!-- SECTION ONE -->
         <section class="sec-one">
 
@@ -168,7 +151,6 @@
             </div>
         </section>
         <!--------------------------------------->
-        
         <!-- SECTION TWO -->
         <section class="sec-two" id="ipsum-amet">
             <div class="container">
@@ -246,9 +228,7 @@
                 </p>
             </div>
         </section>
-
         <!----------------------------------------->
-        
         <!-- SECTION THREE -->
         <section class="sec-three">
             <div class="container">
@@ -259,13 +239,11 @@
             </div>
         </section>
         <!---------------------------------------->
-        
         <!-- SECTION FOUR -->
         <section class="sec-four" id="voluptatibus">
             <div class="bg">
                 <img src="./images/bg-20.png" alt="background image">
             </div>
-
             <div class="vertical-left2">
                 <p> <span class="letter">
                         L
@@ -322,7 +300,6 @@
                         t
                     </span></p>
             </div>
-
             <div class="container">
                 <div class="left-text">
                     <h1 class="big-heading">Ipsum dolor<br>adipicit . . .</h1>
@@ -339,7 +316,6 @@
             </div>
         </section>
         <!---------------------------------------->
-        
         <!-- SECTION FIVE -->
         <section class="sec-five" id="dolor-sit">
             <div class="container">
@@ -432,14 +408,11 @@
             </div>
         </section>
         <!---------------------------------->
-        
         <!-- FOOTER -->
         <section class="footer" id="consectetur">
-
             <div class="logo2 logo-img">
                 <img src="./images/bg-21.png" alt="Logo">
             </div>
-
             <div class="container2">
                 <div class="left-text">
                     <p class="parag">lorem@ipsum.io</p>
@@ -455,37 +428,23 @@
             <div class="copyright">
                 <p>All Rights Reserved. Copyright 2019.</p>
             </div>
-
         </section>
-
     </main>
-
     <!----------------------------------------------->
-    
-    
     <!-- MAIN END -->
-        
-    
-    
     <!-- SCRIPTS -->
-    
     <!-- NAVIGATION TOGGLING -->
     <script>
         $('.navigation').click(function () {
             $('.navigation-button').toggleClass('close');
             $('.navigation-background').toggleClass('open');
             $('.navigation-nav').toggleClass('fade-in');
-
         })
     </script>
     <!------------------------------------------------>
-        
-    
     <!-- LOADING -->
     <script src="loading.js"></script>
      <!------------------------------------------------>
-        
-    
     <!-- PARALLAX EFFECT -->
     <script>
         var scene = document.getElementById('scene');
@@ -493,63 +452,12 @@
             // limitX: false,
             frictionX: false
         });
-
         parallaxInstance.scalar(0, 22.5);
     </script>
     <!------------------------------------------------>
-    
-    
     <!-- ANIMATIONS ON SCROLL -->
     <script src="animations_on_scroll.js"></script>
     <!------------------------------------------------>
-    
-    
-    <!-- <script>
-        let headingFirst = document.querySelector('#heading-first');
-        let headingSecond = document.querySelector('#heading-second');
-        let headingThird = document.querySelector('#heading-third');
-
-        const contentOne = document.querySelector('#content1');
-        const contentTwo = document.querySelector('#content2');
-        const contentThree = document.querySelector('#content3');
-
-
-        headingFirst.addEventListener('click', function () {
-            // headingFirst.style.opacity = "1 !important";
-            // headingSecond.style.opacity = "0.666 !important";
-            // headingThird.style.opacity = "0.333 !important";
-
-            // contentOne.style.visibility = "visible";
-            contentOne.style.opacity = "0.5";
-            // contentOne.style.display = "block";
-            contentTwo.style.display = "none";
-            contentThree.style.display = "none";
-        });
-        headingSecond.addEventListener('click', function () {
-
-            // headingFirst.style.opacity = "0.666 !important";
-            // headingSecond.style.opacity = "1 !important";
-            // headingThird.style.opacity = "0.666 !important";
-
-            // contentOne.style.visibility = "hidden";
-            // contentOne.style.display = "none";
-            contentOne.style.opacity = "0";
-            contentTwo.style.display = "block";
-            contentThree.style.display = "none";
-        });
-        headingThird.addEventListener('click', function () {
-
-            // headingFirst.style.opacity = "0.333 !important";
-            // headingSecond.style.opacity = "0.666 !important";
-            // headingThird.style.opacity = "1 !important";
-
-            // contentOne.style.visibility = "hidden";
-            // contentOne.style.display = "none";
-            contentOne.style.opacity = "0";
-            contentTwo.style.display = "none";
-            contentThree.style.display = "block";
-        });
-    </script> -->
 
 </body>
 
